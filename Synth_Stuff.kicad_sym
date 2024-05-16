@@ -1269,6 +1269,18 @@
 			)
 			(polyline
 				(pts
+					(xy 3.81 -3.81) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
