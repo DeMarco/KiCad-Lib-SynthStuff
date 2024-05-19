@@ -166,6 +166,17 @@
 		(uuid "c36cc615-3277-4520-a417-ca9d5785359a")
 	)
 	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5afb649f-e05a-4cac-8556-11ec1dab2292")
+	)
+	(fp_circle
 		(center 4.5 8.67)
 		(end 4.6 8.67)
 		(stroke
