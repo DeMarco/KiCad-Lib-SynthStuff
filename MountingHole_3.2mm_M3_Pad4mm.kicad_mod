@@ -7,7 +7,7 @@
 	(tags "mounting hole 3.2mm m3")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "c411becc-e7da-4ffe-b984-354a8360a757")
 		(effects
 			(font

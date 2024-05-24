@@ -1,0 +1,111 @@
+(footprint "Jack_3.5mm_Cutout"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f107bb15-4629-475a-9e1a-67c95806279e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_Cutout"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0ba1744-520a-421a-8c2f-bd4b2b7f03f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Jack_3.5mm_Cutout"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94f71ac5-3634-496f-b038-13ddf086a5fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f5bafd9-cc5d-49a9-9cc4-28af8d8985dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f90d93e4-f1e9-4d79-ab2d-dbf0d3c8d994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "5383adb0-c3a9-4698-a310-fc84c7444c14")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "828572be-89eb-4520-b13f-874d47ffad21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75c83a80-6f5e-4095-b65c-6a6bde9ce455")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "440b7f84-89cb-47ef-8ba2-2496ef886d5a")
+	)
+)
