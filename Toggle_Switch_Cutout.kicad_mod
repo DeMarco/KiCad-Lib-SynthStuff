@@ -66,7 +66,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_bom)
 	(fp_circle
 		(center 0 0)
 		(end 0 6.5)
@@ -78,27 +78,49 @@
 		(layer "Cmts.User")
 		(uuid "b105d5d8-e93d-4bd8-8c83-c787005c8e50")
 	)
-	(fp_circle
-		(center 0 -6.4)
-		(end 0 -4.9)
+	(fp_arc
+		(start -6.984267 0)
+		(mid -5.422447 -4.401938)
+		(end -1.435493 -6.835155)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "501f0104-93bf-44fb-b888-09796919d672")
+		(uuid "23744cb9-03db-4975-a104-3678962c08c3")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 0 7)
+	(fp_arc
+		(start -1.435493 -6.835156)
+		(mid -0.893663 -7.604727)
+		(end 0 -7.9)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "F.CrtYd")
-		(uuid "5a01516c-7c1a-4b52-b09a-5cb8e0f5532f")
+		(uuid "123dd39f-bbac-496d-bc2c-653679a3344f")
+	)
+	(fp_arc
+		(start 0 -7.9)
+		(mid 0.893663 -7.604727)
+		(end 1.435493 -6.835156)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c67221b-57e8-4882-bcc2-7e151a166008")
+	)
+	(fp_arc
+		(start 1.435493 -6.835155)
+		(mid 4.401938 5.422446)
+		(end -6.984267 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1f5ba22-93a4-4301-a5ef-506a80fa4053")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
