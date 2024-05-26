@@ -83,8 +83,8 @@
 		(uuid "be62b6d7-d1a0-477d-aac8-55665031434b")
 	)
 	(fp_line
-		(start 0 -4.3)
-		(end -2.2 -4.3)
+		(start 0 -4.2)
+		(end -2.35 -4.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -93,8 +93,8 @@
 		(uuid "5061bf9d-58c6-43e4-ba49-c6f18db30d90")
 	)
 	(fp_line
-		(start 0 -4.3)
-		(end 2.2 -4.3)
+		(start 0 -4.2)
+		(end 2.35 -4.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -103,8 +103,8 @@
 		(uuid "32019e0f-4e65-4677-994c-64ceaa98d719")
 	)
 	(fp_line
-		(start 0 4.3)
-		(end -2.2 4.3)
+		(start 0 4.2)
+		(end -2.35 4.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -113,8 +113,8 @@
 		(uuid "0396167f-beae-439d-84d0-16358e1ab5b2")
 	)
 	(fp_line
-		(start 0 4.3)
-		(end 2.2 4.3)
+		(start 0 4.2)
+		(end 2.35 4.2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -142,6 +142,50 @@
 		(layer "F.SilkS")
 		(uuid "0926abf1-13a0-4cb9-86a7-4db70df390bf")
 	)
+	(fp_arc
+		(start -4.8 0)
+		(mid -4.14066 -2.427948)
+		(end -2.343778 -4.188879)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6b82657-dc7b-4d86-b7b4-82ab8b2bba53")
+	)
+	(fp_arc
+		(start -2.343778 4.188879)
+		(mid -4.14066 2.427948)
+		(end -4.8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb9bd886-2d01-41f5-961d-2c2f277f77d4")
+	)
+	(fp_arc
+		(start 2.343778 -4.188879)
+		(mid 4.14066 -2.427948)
+		(end 4.8 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28f6e571-632e-4a39-9f27-1f5320e24776")
+	)
+	(fp_arc
+		(start 4.8 0)
+		(mid 4.14066 2.427948)
+		(end 2.343778 4.188879)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "94f70984-b603-44be-bd97-308493f4a369")
+	)
 	(fp_circle
 		(center -8.4 -5.2)
 		(end -8.3 -5.2)
@@ -152,17 +196,6 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "bb13a7da-1979-4e9d-9ad6-1686e5c35302")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 4.85 0)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "0ed93191-3301-4609-aded-fb851c17c6fa")
 	)
 	(fp_line
 		(start -8.15 -8.15)
