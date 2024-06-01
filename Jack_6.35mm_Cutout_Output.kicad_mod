@@ -1,4 +1,4 @@
-(footprint "Jack_6.35mm_Cutout"
+(footprint "Jack_6.35mm_Cutout_Output"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -102,7 +102,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Jack_6.35mm_Cutout"
+	(property "Footprint" "Jack_6.35mm_Cutout_Output"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -142,6 +142,37 @@
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(arc
+				(start 6 -5.5)
+				(mid 5.853553 -5.853553)
+				(end 5.5 -6)
+			)
+			(arc
+				(start -5.5 -6)
+				(mid -5.853553 -5.853553)
+				(end -6 -5.5)
+			)
+			(arc
+				(start -6 5.5)
+				(mid -5.853553 5.853553)
+				(end -5.5 6)
+			)
+			(arc
+				(start 5.5 6)
+				(mid 5.853553 5.853553)
+				(end 6 5.5)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "54fec7f3-660d-419e-b29e-ba4fb716a335")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 0 6)
