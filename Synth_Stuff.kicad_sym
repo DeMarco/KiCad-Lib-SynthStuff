@@ -1881,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v2"
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v5"
 			(at 0 0 0)
 			(effects
 				(font
