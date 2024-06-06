@@ -1,4 +1,4 @@
-(footprint "Pot_Tiny"
+(footprint "Pot_Cutout_Tiny"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -134,7 +134,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Pot_Tiny"
+	(property "Footprint" "Pot_Cutout_Tiny"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
