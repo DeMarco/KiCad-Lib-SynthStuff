@@ -1,4 +1,4 @@
-(footprint "Jack_3.5mm_Cutout"
+(footprint "Jack_3.5mm_Cutout_Output"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -102,7 +102,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Jack_3.5mm_Cutout"
+	(property "Footprint" "Jack_3.5mm_Cutout_Output"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -142,6 +142,74 @@
 		)
 	)
 	(attr through_hole exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy -6.5 -5.5) (xy -5.5 -6.5)
+			(arc
+				(start 0 -6.5)
+				(mid -4.596194 -4.596194)
+				(end -6.5 0)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "dee671fe-0e89-4ab9-8dc8-bc04991f25cf")
+	)
+	(fp_poly
+		(pts
+			(xy -5.5 6.5) (xy -6.5 5.5)
+			(arc
+				(start -6.5 0)
+				(mid -4.596194 4.596194)
+				(end 0 6.5)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f11ec611-ff35-486a-a519-a98f9dee04e1")
+	)
+	(fp_poly
+		(pts
+			(xy 5.5 -6.5) (xy 6.5 -5.5)
+			(arc
+				(start 6.5 0)
+				(mid 4.596194 -4.596194)
+				(end 0 -6.5)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "08d5b165-3bca-44d8-a173-2c5c84f2c428")
+	)
+	(fp_poly
+		(pts
+			(xy 6.5 5.5) (xy 5.5 6.5)
+			(arc
+				(start 0 6.5)
+				(mid 4.596194 4.596194)
+				(end 6.5 0)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9d46462f-d50d-4136-bf0d-4ec86dc975d5")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 0 6.5)
