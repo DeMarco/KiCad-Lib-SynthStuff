@@ -1,4 +1,4 @@
-(footprint "MountingHole_3.2mm_M3_Pad4mm"
+(footprint "MountingHole_Rails"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_3.2mm_M3_Pad4mm"
+	(property "Value" "MountingHole_Rails"
 		(at 0 4.2 0)
 		(layer "F.Fab")
 		(uuid "e425360f-bf67-43b0-929e-a24c0e3b7add")
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -103,6 +106,7 @@
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "b9ef6013-eeea-4412-8f7e-41b43590b259")
 	)
 )
