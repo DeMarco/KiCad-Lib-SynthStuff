@@ -238,6 +238,7 @@
 		(drill 2.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 2)
 		(uuid "4821fa15-c13b-4243-9af4-3b3037bb327d")
 	)
 	(pad "1" thru_hole circle
