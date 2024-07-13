@@ -2386,7 +2386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:MountingHole_3.2mm_M3_Pad4mm"
+		(property "Footprint" "SynthStuff:MountingHole_Slotted_Rails"
 			(at 0 0 0)
 			(effects
 				(font
