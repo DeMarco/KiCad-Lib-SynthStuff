@@ -297,6 +297,17 @@
 	)
 	(fp_circle
 		(center 0 0)
+		(end 0 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f7e8b654-d7ad-4669-ab8e-604b520266b6")
+	)
+	(fp_circle
+		(center 0 0)
 		(end 11 0)
 		(stroke
 			(width 0.05)
@@ -318,13 +329,18 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" connect circle
 		(at 0 0)
 		(size 13 13)
-		(drill 6.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 		(uuid "c6a08f8f-4c8e-4f28-8fcb-b730f0d98222")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 13 13)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(uuid "589dff5b-efb3-4988-98a6-baf4acf4dc13")
 	)
 )
