@@ -3897,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SynthStuff:Toggle_Switch_THT"
 			(at 0 -10.16 0)
 			(effects
 				(font
