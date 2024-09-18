@@ -3498,7 +3498,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_ToggleSwitch"
+		(property "Value" "Function"
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -3524,13 +3524,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Toggle Switch Mounting Hole"
 			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "ki_keywords" "mounting hole toggle switch"
