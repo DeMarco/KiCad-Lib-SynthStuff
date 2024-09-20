@@ -64,6 +64,18 @@
 			)
 		)
 	)
+	(property "Function" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "9372de20-287c-4aae-8791-ea4f06d6d3fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start 0 -4.2)
