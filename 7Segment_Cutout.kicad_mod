@@ -295,9 +295,8 @@
 		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Display_7Segment.3dshapes/7SegmentLED_LTS6760_LTS6780.wrl"
-		(hide yes)
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 -8)
 		)
 		(scale
 			(xyz 1 1 1)
