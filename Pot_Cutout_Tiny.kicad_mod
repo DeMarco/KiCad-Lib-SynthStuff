@@ -352,4 +352,15 @@
 		(zone_connect 2)
 		(uuid "55a7e7e7-afb7-404c-b8d0-ec0085ecf695")
 	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/57f2345_pkes60b1_8.wrl"
+		(offset
+			(xyz 0 0 12)
+		)
+		(scale
+			(xyz 0.4 0.4 0.4)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
