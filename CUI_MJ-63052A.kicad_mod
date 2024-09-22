@@ -363,4 +363,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "f143bef4-5c9d-4b8b-a185-993694f2f959")
 	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/User Library-jack-4.STEP"
+		(offset
+			(xyz 0 0 23)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

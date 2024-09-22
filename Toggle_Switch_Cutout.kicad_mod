@@ -250,4 +250,15 @@
 		(zone_connect 2)
 		(uuid "501d9f08-b90d-4858-9c09-0bf864db224b")
 	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/Eledis 1A11-NF1STSE SPDT Toggle Switch.stp"
+		(offset
+			(xyz 0 -4.7 -12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

@@ -149,4 +149,15 @@
 		(remove_unused_layers no)
 		(uuid "83eb9c04-ea0f-49ac-947d-a18916cd706c")
 	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/Eledis 1A11-NF1STSE SPDT Toggle Switch.stp"
+		(offset
+			(xyz 0 4.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

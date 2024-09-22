@@ -357,4 +357,15 @@
 		(zone_connect 2)
 		(uuid "1400633a-dd09-4e09-a395-cb37872f1018")
 	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/User Library-jack-4.STEP"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
 )

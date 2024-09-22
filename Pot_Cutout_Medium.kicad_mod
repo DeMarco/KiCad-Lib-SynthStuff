@@ -352,4 +352,27 @@
 		(zone_connect 2)
 		(uuid "8f0f5475-dc17-4728-9f78-9b65ae3b6f7e")
 	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/c-5-1437624-3-a-3d.stp"
+		(offset
+			(xyz 0 0 14.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/ALPHA-RD901F-40.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 -11.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
