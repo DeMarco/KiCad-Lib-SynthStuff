@@ -66,7 +66,7 @@
 			)
 		)
 	)
-	(property "Function" "Sync On/Off"
+	(property "Function" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
