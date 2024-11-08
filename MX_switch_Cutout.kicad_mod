@@ -1,0 +1,210 @@
+(footprint "MX_switch_Cutout"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "82614f2a-3096-4b54-97e4-745f696199f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MX_switch_Cutout"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a6471536-35f6-46bf-992d-c8d86bd41c41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c014c0a-f706-459f-b83d-efe7c1393e0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d402503-19ba-4255-8637-c38f5d7f0cb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6471004-9bcf-441b-b539-43b5c8685d47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_bom)
+	(fp_line
+		(start -9.5 -9)
+		(end -9.5 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f62a0243-f80d-4f0a-86f7-e59c2afc4ec8")
+	)
+	(fp_line
+		(start -9 -9.5)
+		(end 9 -9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "541be216-c67a-443c-8986-9a84b389e764")
+	)
+	(fp_line
+		(start -9 9.5)
+		(end 9 9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "63be2f0b-e1bf-469d-95d3-eda704e5d0a9")
+	)
+	(fp_line
+		(start 9.5 -9)
+		(end 9.5 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "40953177-1a91-41d0-8a7c-4677c1b73d37")
+	)
+	(fp_arc
+		(start -9.5 -9)
+		(mid -9.353553 -9.353553)
+		(end -9 -9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5af3edea-8529-4a38-8af9-a04c6e6c6654")
+	)
+	(fp_arc
+		(start -9 9.5)
+		(mid -9.353553 9.353553)
+		(end -9.5 9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "94f9f5cd-b4fd-4cc3-a48c-eddeb4f26b99")
+	)
+	(fp_arc
+		(start 9 -9.5)
+		(mid 9.353553 -9.353553)
+		(end 9.5 -9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3e8d902b-78af-428e-971d-d10ebbcc809c")
+	)
+	(fp_arc
+		(start 9.5 9)
+		(mid 9.353553 9.353553)
+		(end 9 9.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e11925f1-191e-4242-9bfa-1eb9bbd9af32")
+	)
+	(fp_rect
+		(start -9 -9)
+		(end 9 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cc0f0c09-5358-4478-ae6f-a94ec56ee2c9")
+	)
+	(fp_rect
+		(start -7.8 -7.8)
+		(end 7.8 7.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2b36f1f7-1088-498e-b03e-f4246a577406")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f04b5b62-0f74-46bb-b42a-b6f601671c5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+		(offset
+			(xyz 2.5 5 -7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/R2_1u.step"
+		(offset
+			(xyz 173.2 -105 3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
