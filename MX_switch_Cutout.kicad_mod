@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 11 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "82614f2a-3096-4b54-97e4-745f696199f7")
@@ -187,7 +187,7 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
 		(offset
-			(xyz 2.5 5 -7.5)
+			(xyz 2.5 5 -11)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -198,7 +198,7 @@
 	)
 	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/R2_1u.step"
 		(offset
-			(xyz 173.2 -105 3.5)
+			(xyz 173.2 -105 0)
 		)
 		(scale
 			(xyz 1 1 1)
