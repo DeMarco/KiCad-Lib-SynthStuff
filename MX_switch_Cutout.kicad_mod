@@ -185,7 +185,7 @@
 			)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/SW_Cherry_MX_1.00u_PCB.step"
 		(offset
 			(xyz 2.5 5 -11)
 		)
