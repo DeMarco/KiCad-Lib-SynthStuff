@@ -64,16 +64,17 @@
 			)
 		)
 	)
-	(property "Function" ""
+	(property "Function" "Function"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "9372de20-287c-4aae-8791-ea4f06d6d3fa")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 				(italic yes)
 			)
+			(justify mirror)
 		)
 	)
 	(attr through_hole)
