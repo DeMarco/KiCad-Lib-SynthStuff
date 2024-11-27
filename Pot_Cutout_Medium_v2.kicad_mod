@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Based on Alpha RD901F-40-DD0")
 	(property "Reference" "REF**"
 		(at 0 -7.9 0)
 		(unlocked yes)
@@ -147,7 +148,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://nl.mouser.com/datasheet/2/13/RD901F-2303764.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -160,7 +161,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Based on Alpha RD901F-40-DD0"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

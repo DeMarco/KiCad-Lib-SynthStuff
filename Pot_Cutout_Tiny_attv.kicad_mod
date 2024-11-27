@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(descr "Based on TT P110KH1-1F15BR100K")
 	(property "Reference" "REF**"
 		(at 0 -7.9 0)
 		(unlocked yes)
@@ -147,7 +148,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://nl.mouser.com/datasheet/2/414/TTRB_S_A0010315417_1-2565498.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -160,7 +161,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Based on TT P110KH1-1F15BR100K"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -349,7 +350,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0 3.5)
+		(end 4.5 0)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -394,15 +395,6 @@
 		(layers "B.Cu" "B.Mask")
 		(zone_connect 2)
 		(uuid "589dff5b-efb3-4988-98a6-baf4acf4dc13")
-	)
-	(pad "1" thru_hole oval
-		(at 0 6)
-		(size 2.5 1.5)
-		(drill oval 2 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(zone_connect 2)
-		(uuid "55a7e7e7-afb7-404c-b8d0-ec0085ecf695")
 	)
 	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/c-5-1437624-0-a-3d.stp"
 		(offset
