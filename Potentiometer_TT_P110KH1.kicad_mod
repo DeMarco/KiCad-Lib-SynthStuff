@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://nl.mouser.com/datasheet/2/414/TTRB_S_A0010315417_1-2565498.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -62,6 +62,18 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Function" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "85c99f98-cab0-4bfe-87b5-bed835760360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(italic yes)
 			)
 		)
 	)
@@ -371,16 +383,24 @@
 	)
 	(pad "" thru_hole oval
 		(at -3.3 -11)
-		(size 4 4)
-		(drill 2)
+		(size 4 4.2)
+		(drill oval 2 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "362d960f-f416-4ff6-8dae-4485e49c5ece")
 	)
+	(pad "" thru_hole circle
+		(at 6.25 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee1bd434-538e-4c1f-98ff-9e8707483b22")
+	)
 	(pad "" thru_hole oval
 		(at 8.3 -11)
-		(size 4 4)
-		(drill 2)
+		(size 4 4.2)
+		(drill oval 2 2.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "990087cf-3e75-43a9-a501-06322ee95324")
@@ -408,14 +428,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9862d665-c6a5-4255-ac9f-13fbb2c4ae97")
-	)
-	(pad "Dummy" thru_hole circle
-		(at 6.25 0)
-		(size 1.8 1.8)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ee1bd434-538e-4c1f-98ff-9e8707483b22")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_TT_P0915N.wrl"
 		(offset
