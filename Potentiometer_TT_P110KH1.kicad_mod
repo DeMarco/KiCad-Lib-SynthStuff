@@ -429,15 +429,15 @@
 		(remove_unused_layers no)
 		(uuid "9862d665-c6a5-4255-ac9f-13fbb2c4ae97")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_TT_P0915N.wrl"
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/P110KH1_0F15BR10K.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 2.5 11 6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 0 90)
 		)
 	)
 )
