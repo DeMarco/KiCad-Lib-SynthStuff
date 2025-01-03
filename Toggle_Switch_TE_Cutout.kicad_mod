@@ -1,4 +1,4 @@
-(footprint "Toggle_Switch_Cutout"
+(footprint "Toggle_Switch_TE_Cutout"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -233,7 +233,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 -6.4)
+		(at 0 -6.1)
 		(size 2.9 2.9)
 		(drill 2.4)
 		(layers "*.Cu" "*.Mask")
@@ -244,7 +244,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 13 13)
-		(drill 6.2)
+		(drill 6.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)

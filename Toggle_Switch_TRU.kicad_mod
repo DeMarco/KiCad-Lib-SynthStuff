@@ -1,4 +1,4 @@
-(footprint "Toggle_Switch_2_Poles_THT"
+(footprint "Toggle_Switch_TRU"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_SPDT_321_OnOff"
+	(property "Value" "SW_SPDT"
 		(at 0 -6.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -81,8 +81,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -6.2 -6.8)
-		(end 6.2 6.8)
+		(start -3.6 -6.6)
+		(end 3.6 6.6)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -92,8 +92,8 @@
 		(uuid "72b66120-08f4-4b9f-a8ff-21b6d3b3b6a4")
 	)
 	(fp_rect
-		(start -6.4 -7)
-		(end 6.4 7)
+		(start -3.8 -6.8)
+		(end 3.8 6.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -103,8 +103,8 @@
 		(uuid "bd258a51-3475-478f-9d61-0dec2b0050ed")
 	)
 	(fp_rect
-		(start -6 -6.6)
-		(end 6 6.6)
+		(start -3.4 -6.4)
+		(end 3.4 6.4)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -126,52 +126,28 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -2.375 4.7 90)
-		(size 2.6 2.6)
-		(drill 1.6)
+		(at 0 4.7 90)
+		(size 2.5 2.5)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "fd83563a-6d87-4dff-87bb-e32c17bbd391")
 	)
 	(pad "2" thru_hole circle
-		(at -2.375 0 90)
-		(size 2.6 2.6)
-		(drill 1.6)
+		(at 0 0 90)
+		(size 2.5 2.5)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9a2fb715-1baf-425b-9a1f-716fb09fb293")
 	)
 	(pad "3" thru_hole circle
-		(at -2.375 -4.7 90)
-		(size 2.6 2.6)
-		(drill 1.6)
+		(at 0 -4.7 90)
+		(size 2.5 2.5)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "83eb9c04-ea0f-49ac-947d-a18916cd706c")
-	)
-	(pad "4" thru_hole circle
-		(at 2.375 4.7 90)
-		(size 2.6 2.6)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "3fc378c1-213e-4f2f-af2d-2be0054df19c")
-	)
-	(pad "5" thru_hole circle
-		(at 2.375 0 90)
-		(size 2.6 2.6)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "adce3783-a9e5-435a-b8de-bba2a3863c15")
-	)
-	(pad "6" thru_hole circle
-		(at 2.375 -4.7 90)
-		(size 2.6 2.6)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "43d414b8-6010-4f43-9624-1c3562e4439f")
 	)
 	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/Eledis 1A11-NF1STSE SPDT Toggle Switch.stp"
 		(offset

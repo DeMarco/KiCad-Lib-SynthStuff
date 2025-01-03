@@ -1,0 +1,187 @@
+(footprint "Toggle_Switch_2_Poles_TE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW1"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b145618-6754-4425-af73-407727514ab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_DPDT"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "20603724-8f0b-4a4c-a259-2c37db28f974")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SynthStuff:Toggle_Switch_THT"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bf68d3d-9559-4f68-868d-6f92d1d715a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed29972-76e6-42ab-b32d-d69576977307")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, single pole double throw"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeb5e621-a150-47ee-896a-7191ee93a409")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Function" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5a6d21fb-05c7-4e3d-8785-7a9eff3210d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(italic yes)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.2 -6.8)
+		(end 6.2 6.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "72b66120-08f4-4b9f-a8ff-21b6d3b3b6a4")
+	)
+	(fp_rect
+		(start -6.4 -7)
+		(end 6.4 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bd258a51-3475-478f-9d61-0dec2b0050ed")
+	)
+	(fp_rect
+		(start -6 -6.6)
+		(end 6 6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bca051d9-e85e-4896-9092-4f16f3d9ca3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9f3f78f7-2996-4847-8fdc-5bb20224a48f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.413 4.7 90)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd83563a-6d87-4dff-87bb-e32c17bbd391")
+	)
+	(pad "2" thru_hole circle
+		(at -2.413 0 90)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a2fb715-1baf-425b-9a1f-716fb09fb293")
+	)
+	(pad "3" thru_hole circle
+		(at -2.413 -4.7 90)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83eb9c04-ea0f-49ac-947d-a18916cd706c")
+	)
+	(pad "4" thru_hole circle
+		(at 2.413 4.7 90)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fc378c1-213e-4f2f-af2d-2be0054df19c")
+	)
+	(pad "5" thru_hole circle
+		(at 2.413 0 90)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "adce3783-a9e5-435a-b8de-bba2a3863c15")
+	)
+	(pad "6" thru_hole circle
+		(at 2.413 -4.7 90)
+		(size 2.8 2.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "43d414b8-6010-4f43-9624-1c3562e4439f")
+	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/Eledis 1A11-NF1STSE SPDT Toggle Switch.stp"
+		(offset
+			(xyz 0 4.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

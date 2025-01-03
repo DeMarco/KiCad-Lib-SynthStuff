@@ -4545,7 +4545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+		(property "Footprint" ""
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -4572,7 +4572,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON ON-OFF-ON"
+		(property "ki_keywords" "switch 3pdt ON-ON ON-OFF-ON"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:PinHeader_2x03_P2.54mm_Vertical_142536"
+		(property "Footprint" "SynthStuff:Toggle_Switch_2_Poles_TE"
 			(at 0 5.08 0)
 			(effects
 				(font
