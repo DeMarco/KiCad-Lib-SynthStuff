@@ -66,10 +66,10 @@
 			)
 		)
 	)
-	(property "Function" ""
-		(at 0 0 0)
+	(property "Function" "Function"
+		(at 0 7.5 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "5a6d21fb-05c7-4e3d-8785-7a9eff3210d0")
 		(effects
 			(font

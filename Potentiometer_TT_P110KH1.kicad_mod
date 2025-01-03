@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer_TT_P110KH1"
-		(at 2.5 2 0)
+	(property "Value" "Value"
+		(at 9.3 -3 90)
 		(layer "F.SilkS")
 		(uuid "502681ce-e61e-442f-9595-3dd483e44fe4")
 		(effects
@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Potentiometer_TT_P110KH1"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -65,8 +65,8 @@
 			)
 		)
 	)
-	(property "Function" ""
-		(at 0 0 0)
+	(property "Function" "Function"
+		(at 2.5 1.9 0)
 		(layer "F.SilkS")
 		(uuid "85c99f98-cab0-4bfe-87b5-bed835760360")
 		(effects

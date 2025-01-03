@@ -16,9 +16,9 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
-		(at 0 9.86 180)
-		(layer "F.Fab")
+	(property "Value" "Value"
+		(at 2.7 8.3 180)
+		(layer "F.SilkS")
 		(uuid "76eede0a-e6d8-47d6-b23c-43a8c85c8b4a")
 		(effects
 			(font
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -66,8 +66,8 @@
 			)
 		)
 	)
-	(property "Function" ""
-		(at 0 0 0)
+	(property "Function" "Function"
+		(at -2 2.5 90)
 		(layer "F.SilkS")
 		(uuid "9f20ea92-c8bb-416a-b2ab-4cd0f38032c8")
 		(effects
