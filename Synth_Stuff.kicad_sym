@@ -3761,7 +3761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SynthStuff:Toggle_Switch_Cutout"
+		(property "Footprint" "SynthStuff:Toggle_Switch_TE_Cutout"
 			(at 0 0 0)
 			(effects
 				(font
