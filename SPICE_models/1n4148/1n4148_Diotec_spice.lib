@@ -1,0 +1,37 @@
+* SPICE model rectifier diode ***1N4148***
+* Use the symbol file ***1n4148.asy***
+*
+* (c) Diotec Semiconductor AG
+* www.diotec.com
+* 2017-11-21
+*
+*********************************************************
+* This model is for simulation purposes only. It does   *
+* not replace reviewing of the data sheet nor real life *
+* testing of the part inside the application.           *
+*********************************************************
+*
+.subckt 1N4148  A  K  params: Vrrm=100 Vrsm=100 Ir=5u Irsm=5u Vf=1.0 Ifav=0.01 Rs=.25 trr=4n Cj=4p Eg=1.11 Xti=3
+
+* Above values are an example for the ***1N4148***. Using the symbol
+* above symbol file allows for direct insertion of other values
+* according to these data sheet parameters:
+*
+* Vrrm    	Repetitive peak reverse voltage
+* Ir		Leakage current
+* Vrsm    	Surge peak reverse voltage / Reverse avalanche breakdown voltage
+* Irsm		Defined at avalanche diodes, otherwise set Irsm = Ir
+* Vf		Forward voltage
+* Ifav		Test current for Vf, usually equal to average forward rectified current
+* trr		Reverse recovery time; for Schottky, set trr=5n
+* Cj		Junction capacitance at 4V
+*
+* Activation energy: Eg=1.11 for Si (pn) rectifier, Eg=.69 for Schottky (metal barrier) rectifier
+* Series resistance: Rs=(Vf@3*Ifav - Vf@Ifav)/(3*Ifav - Ifav) from data sheet curve
+* Sat.-current temp. exp: Xti=3 for Si (pn) rectifier, Xti=2 for Schottky (metal barrier) rectifier
+
+D  A K  Rectifier
+
+.model Rectifier D(Is={Ir/40} Bv={Vrsm*1.05} Ibv={Ir} Vpk=Vrrm N={.8*Vf/25m/(ln(Ifav)-ln(Ir/40))} Rs={Rs} Eg={Eg} Xti={Xti} Iave={Ifav} Cjo={Cj*2} M=.33 Tt={trr} Vp=.5 mfg=Diotec type=Rectifier)
+
+.ends
