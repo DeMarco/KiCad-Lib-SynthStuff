@@ -5514,8 +5514,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "MountingHole_ToggleSwitch"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 1.016)
+			(hide yes)
 		)
 		(exclude_from_sim yes)
 		(in_bom no)
