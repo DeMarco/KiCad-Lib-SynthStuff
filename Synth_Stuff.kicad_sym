@@ -5255,7 +5255,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Pot_Cutout_*"
+		(property "ki_fp_filters" "Pot_Cutout_* Selector_Cutout_*"
 			(at 0 0 0)
 			(effects
 				(font
