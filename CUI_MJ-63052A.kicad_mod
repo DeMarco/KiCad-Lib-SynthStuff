@@ -1,7 +1,7 @@
 (footprint "CUI_MJ-63052A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -4.075 -7 0)
@@ -21,19 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "CUI_MJ-63052A"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "db53bafb-8a75-4191-8dde-cc4790c383da")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -78,90 +65,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start 0 -4.2)
-		(end -2.35 -4.2)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "c551dc49-86c8-4765-9d21-f98de7d5a105")
-	)
-	(fp_line
-		(start 0 -4.2)
-		(end 2.35 -4.2)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "3ebd477e-47f4-4aec-8086-f92980a335c1")
-	)
-	(fp_line
-		(start 0 4.2)
-		(end -2.35 4.2)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "7e144887-6551-4ed8-8d1c-c705f48b8483")
-	)
-	(fp_line
-		(start 0 4.2)
-		(end 2.35 4.2)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "fcc89a23-edf5-4e88-905b-7b7a74cd28cd")
-	)
-	(fp_arc
-		(start -4.8 0)
-		(mid -4.14066 -2.427948)
-		(end -2.343778 -4.188879)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "ec2fba2a-1bb0-4035-8fc2-b870868a9233")
-	)
-	(fp_arc
-		(start -2.343778 4.188879)
-		(mid -4.14066 2.427948)
-		(end -4.8 0)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "07f42068-9aee-4362-948c-c4cc46ac25b2")
-	)
-	(fp_arc
-		(start 2.343778 -4.188879)
-		(mid 4.14066 -2.427948)
-		(end 4.8 0)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "0d4ef6e0-f230-4018-bea1-abdd95598b87")
-	)
-	(fp_arc
-		(start 4.8 0)
-		(mid 4.14066 2.427948)
-		(end 2.343778 4.188879)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "a5edb5bf-1dd2-4fb4-823f-48d4a5ed1551")
-	)
 	(fp_line
 		(start 0 -4.2)
 		(end -2.35 -4.2)
@@ -245,6 +148,90 @@
 		)
 		(layer "F.SilkS")
 		(uuid "94f70984-b603-44be-bd97-308493f4a369")
+	)
+	(fp_line
+		(start 0 -4.2)
+		(end -2.35 -4.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "c551dc49-86c8-4765-9d21-f98de7d5a105")
+	)
+	(fp_line
+		(start 0 -4.2)
+		(end 2.35 -4.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "3ebd477e-47f4-4aec-8086-f92980a335c1")
+	)
+	(fp_line
+		(start 0 4.2)
+		(end -2.35 4.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7e144887-6551-4ed8-8d1c-c705f48b8483")
+	)
+	(fp_line
+		(start 0 4.2)
+		(end 2.35 4.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "fcc89a23-edf5-4e88-905b-7b7a74cd28cd")
+	)
+	(fp_arc
+		(start -4.8 0)
+		(mid -4.14066 -2.427948)
+		(end -2.343778 -4.188879)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ec2fba2a-1bb0-4035-8fc2-b870868a9233")
+	)
+	(fp_arc
+		(start -2.343778 4.188879)
+		(mid -4.14066 2.427948)
+		(end -4.8 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "07f42068-9aee-4362-948c-c4cc46ac25b2")
+	)
+	(fp_arc
+		(start 2.343778 -4.188879)
+		(mid 4.14066 -2.427948)
+		(end 4.8 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "0d4ef6e0-f230-4018-bea1-abdd95598b87")
+	)
+	(fp_arc
+		(start 4.8 0)
+		(mid 4.14066 2.427948)
+		(end 2.343778 4.188879)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "a5edb5bf-1dd2-4fb4-823f-48d4a5ed1551")
 	)
 	(fp_line
 		(start -8.15 -8.15)
@@ -333,7 +320,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "cea39cd2-3837-4eb1-9ad2-9f38f675416a")
 	)
@@ -364,7 +351,9 @@
 		(solder_mask_margin 0.102)
 		(uuid "f143bef4-5c9d-4b8b-a185-993694f2f959")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/User Library-jack-4.STEP"
+		(hide yes)
 		(offset
 			(xyz 0 0 23)
 		)
@@ -373,6 +362,17 @@
 		)
 		(rotate
 			(xyz 0 0 180)
+		)
+	)
+	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/MJ-63052A.step"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
 		)
 	)
 )
