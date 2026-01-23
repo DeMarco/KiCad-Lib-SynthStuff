@@ -370,7 +370,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/USB-B-TE-5787834-1.stp"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/USB-B-TE-5787834-1.stp"
 		(offset
 			(xyz 0 0 3.5)
 		)

@@ -275,7 +275,7 @@
 		(remove_unused_layers no)
 		(uuid "9d507696-ddb2-4a94-b63a-54a69e85b238")
 	)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/SW_Cherry_MX_1.00u_PCB.step"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/SW_Cherry_MX_1.00u_PCB.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -286,7 +286,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/R2_1u.step"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/R2_1u.step"
 		(offset
 			(xyz 170.7 -110 11)
 		)

@@ -409,7 +409,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/SW_Cherry_MX_1.00u_PCB.step"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/SW_Cherry_MX_1.00u_PCB.step"
 		(offset
 			(xyz 2.5 5 -11)
 		)
@@ -420,7 +420,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/R2_1u.step"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/R2_1u.step"
 		(offset
 			(xyz 173.2 -105 0)
 		)

@@ -688,7 +688,7 @@
 		(uuid "2531d317-a54c-411b-9fa3-d1c5823d01c8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/SJ-63083A.step"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/SJ-63083A.step"
 		(offset
 			(xyz 0 0 3)
 		)

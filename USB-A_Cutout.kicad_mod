@@ -359,7 +359,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/USB-A-Molex-1050570001.stp"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/USB-A-Molex-1050570001.stp"
 		(offset
 			(xyz 0 0 -5.5)
 		)

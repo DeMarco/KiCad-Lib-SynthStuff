@@ -352,7 +352,7 @@
 		(uuid "f143bef4-5c9d-4b8b-a185-993694f2f959")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/User Library-jack-4.STEP"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/User Library-jack-4.STEP"
 		(hide yes)
 		(offset
 			(xyz 0 0 23)
@@ -364,7 +364,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/MJ-63052A.step"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/MJ-63052A.step"
 		(offset
 			(xyz 0 0 3)
 		)

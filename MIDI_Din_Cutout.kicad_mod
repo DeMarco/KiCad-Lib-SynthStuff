@@ -545,7 +545,7 @@
 		(uuid "dd074086-90cb-49c3-91a9-39c7c5d877bc")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/57GB5FX--3DModel-STEP-1.STEP"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/57GB5FX--3DModel-STEP-1.STEP"
 		(offset
 			(xyz 0 0 -3)
 		)

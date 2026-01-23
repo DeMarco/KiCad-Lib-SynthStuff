@@ -323,7 +323,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/ALPHA-RD901F-40.step"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/ALPHA-RD901F-40.step"
 		(offset
 			(xyz 7.35 -2.5 0)
 		)
@@ -334,7 +334,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/rk09l12d0a1w.stp"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/rk09l12d0a1w.stp"
 		(hide yes)
 		(offset
 			(xyz 7.5 -2.5 6.7)

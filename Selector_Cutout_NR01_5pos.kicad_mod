@@ -810,7 +810,7 @@
 		(uuid "cb9987a4-0b84-4a6d-b865-b79ac5326015")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/c-5-1437624-2-a-3d.stp"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/c-5-1437624-2-a-3d.stp"
 		(hide yes)
 		(offset
 			(xyz 0 0 13.5)
@@ -822,7 +822,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/Libraries/SynthStuff/3D_models/NR01105ANG13-1A.stp"
+	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/NR01105ANG13-1A.stp"
 		(offset
 			(xyz 0 0 -1.5)
 		)
