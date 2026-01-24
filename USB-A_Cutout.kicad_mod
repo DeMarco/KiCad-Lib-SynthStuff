@@ -23,7 +23,7 @@
 		(uuid "59b44263-24b1-44a7-a330-1527df823578")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 2 2)
 				(thickness 0.15)
 			)

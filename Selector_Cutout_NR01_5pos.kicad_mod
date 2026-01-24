@@ -23,7 +23,7 @@
 		(uuid "ab60447d-2dcf-4691-841f-ada3cb2013c7")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 2 2)
 				(thickness 0.15)
 			)
@@ -176,7 +176,7 @@
 		(uuid "0c6d9272-9728-43f1-b9b9-ce0b58e19e97")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 1 1)
 				(thickness 0.1)
 			)
@@ -275,7 +275,7 @@
 		(uuid "55657935-ffb0-4c4c-a1b6-89326d10de92")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 1 1)
 				(thickness 0.1)
 			)
@@ -385,7 +385,7 @@
 		(uuid "6325046a-a9a7-4cb6-a29b-7208fc8f3667")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 1 1)
 				(thickness 0.1)
 			)
@@ -497,7 +497,7 @@
 		(uuid "858b00b5-b5b7-4167-b4a8-0e63d6555df3")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 1 1)
 				(thickness 0.1)
 			)
@@ -600,7 +600,7 @@
 		(uuid "e3f77bfa-7c77-4846-997f-16cf48b384c6")
 		(effects
 			(font
-				(face "Nulshock Rg")
+				(face "Nulshock")
 				(size 1 1)
 				(thickness 0.1)
 			)
