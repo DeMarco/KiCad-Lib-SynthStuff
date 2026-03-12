@@ -4426,7 +4426,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -4598,7 +4598,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -4707,7 +4707,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -4980,7 +4980,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -5089,7 +5089,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -5198,7 +5198,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
@@ -5307,7 +5307,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -5414,7 +5414,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
@@ -5523,7 +5523,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -5630,7 +5630,7 @@
 			(offset 1.016)
 			(hide yes)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
@@ -5736,7 +5736,7 @@
 		(pin_names
 			(offset 1.016)
 		)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "H"
