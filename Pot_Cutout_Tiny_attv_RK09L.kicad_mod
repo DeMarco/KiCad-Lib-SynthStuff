@@ -1,4 +1,4 @@
-(footprint "Pot_Cutout_Tiny_attv_RD901F"
+(footprint "Pot_Cutout_Tiny_attv_RK09L"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -352,10 +352,10 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 3.5 0)
+		(end 4.5 0)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -386,14 +386,14 @@
 	)
 	(pad "1" connect circle
 		(at 0 0)
-		(size 12 12)
+		(size 14 14)
 		(layers "F.Cu" "F.Mask")
 		(zone_connect 2)
 		(uuid "c6a08f8f-4c8e-4f28-8fcb-b730f0d98222")
 	)
 	(pad "1" connect circle
 		(at 0 0)
-		(size 12 12)
+		(size 14 14)
 		(layers "B.Cu" "B.Mask")
 		(zone_connect 2)
 		(uuid "589dff5b-efb3-4988-98a6-baf4acf4dc13")
