@@ -1,14 +1,14 @@
-(footprint "Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+(footprint "Potentiometer_Alpha_RD902F-40-00D_Dual_Vertical"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Potentiometer, vertical, 9mm, single, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
-	(tags "potentiometer vertical 9mm single")
+	(descr "Potentiometer, vertical, 9mm, dual, http://www.taiwanalpha.com.tw/downloads?target=products&id=113")
+	(tags "potentiometer vertical 9mm dual")
 	(property "Reference" "REF**"
-		(at 2.9 -3.2 180)
+		(at 2.8 -3.2 180)
 		(layer "F.SilkS")
-		(uuid "8643f033-0b84-464e-aae0-a0bce884c3a7")
+		(uuid "13b49ef7-5b0b-4feb-aa3a-a2d3341ce3e9")
 		(effects
 			(font
 				(size 1 1)
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "Value"
-		(at 2.7 8.3 180)
+		(at 2.8 8.3 180)
 		(layer "F.SilkS")
-		(uuid "1b9cb75b-63d4-4462-a066-3a6ccf59baa7")
+		(uuid "9870f53e-5e0f-4128-a5e3-c4363c83ad44")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://nl.mouser.com/datasheet/2/13/RD901F-2303764.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fe1431f5-548e-40c4-a9b7-ab32d55ab152")
+		(uuid "9ba0743b-fe8e-4d1b-ae70-8454fcd7cdf3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" "Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "161d0d14-01c3-48ec-ac95-1c6dc1af5c12")
+		(uuid "df5f6500-ec08-456c-a680-b600261262ab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,9 +54,9 @@
 		)
 	)
 	(property "Function" "Function"
-		(at -2 2.5 90)
+		(at -4.2 2.5 270)
 		(layer "F.SilkS")
-		(uuid "4de90d71-3459-49ce-a62c-0cd13ffa015e")
+		(uuid "6fc2714a-2b76-47e6-8213-deb912c455ae")
 		(effects
 			(font
 				(size 1 1)
@@ -68,14 +68,14 @@
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
-		(start 0.88 -2.38)
-		(end 5.6 -2.38)
+		(start 0.88 -2.37)
+		(end 5.6 -2.37)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "819e3be0-ddbf-4153-9b1b-e51d8c9aaa2d")
+		(uuid "c9b0d928-4f94-4751-8932-4babadd07744")
 	)
 	(fp_line
 		(start 0.88 -1.19)
@@ -85,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1082d308-9948-44fd-881b-d660f5e087c4")
+		(uuid "9e796050-a1d6-461f-8f04-8d1e6dfb30b7")
 	)
 	(fp_line
 		(start 0.88 1.71)
@@ -95,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "eca41905-4f2b-45d1-aedc-28f597208b7b")
+		(uuid "d2ffd851-8399-4595-aff8-b83a35973bd2")
 	)
 	(fp_line
 		(start 0.88 4.16)
@@ -105,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b88540d5-7ffa-445f-9d75-4611b2bfc084")
+		(uuid "9f9514c0-cd3b-4a54-911e-abe3b9e792a1")
 	)
 	(fp_line
 		(start 0.88 7.37)
@@ -115,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4090611b-6ca2-4787-8f47-551f323ab958")
+		(uuid "4034bac4-f440-4671-bd79-b064f1c5d5df")
 	)
 	(fp_line
 		(start 0.88 7.37)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "23cf4c09-26ab-407f-b516-82d35b8354d4")
+		(uuid "130a22d1-cc06-4cb2-b5da-d0a4e1522dca")
 	)
 	(fp_line
 		(start 9.41 -2.37)
@@ -135,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "47d71936-9e92-4fcd-bba3-531085373584")
+		(uuid "c3e79f5a-b84b-4ddc-aea0-3873ed4ecad6")
 	)
 	(fp_line
 		(start 9.41 7.37)
@@ -145,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3dde499c-955b-4420-92a7-27235fc0c94d")
+		(uuid "088ff7b6-54f9-4e8c-8dae-8a4f7f2a69c7")
 	)
 	(fp_line
 		(start 12.47 7.37)
@@ -155,47 +155,47 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ce080af0-f3ae-4da6-8e36-08c54578f4a7")
+		(uuid "c08073c4-9c3f-4d09-a61c-0fdff5d96d3c")
 	)
 	(fp_line
-		(start -1.15 -3.91)
-		(end -1.15 8.91)
+		(start -3.65 -3.86)
+		(end -3.65 8.86)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "934881a5-66a4-4fd8-8dfe-779ebf539ff8")
+		(uuid "237d68df-d08b-4b5a-b3d0-aab903909867")
 	)
 	(fp_line
-		(start -1.15 8.91)
-		(end 12.6 8.91)
+		(start -3.65 8.86)
+		(end 12.6 8.86)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ec82735e-079e-487c-bcce-e2d8cb5bb8b8")
+		(uuid "1ef42aed-b415-4f3d-ba52-a9ac52180888")
 	)
 	(fp_line
-		(start 12.6 -3.91)
-		(end -1.15 -3.91)
+		(start 12.6 -3.86)
+		(end -3.65 -3.86)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fd8f6c20-bffe-447a-90dc-4523c866e32e")
+		(uuid "9a3b856f-b721-4768-955e-959a8c80dfa2")
 	)
 	(fp_line
-		(start 12.6 8.91)
-		(end 12.6 -3.91)
+		(start 12.6 8.86)
+		(end 12.6 -3.86)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d3c4bb94-007d-4102-b2c5-25de102b0fda")
+		(uuid "1f090c95-e00b-43d2-83fa-31a45ee8a02e")
 	)
 	(fp_line
 		(start 1 -2.25)
@@ -205,7 +205,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "54ce8983-e5c8-4a6a-8462-55fab71d6f41")
+		(uuid "3df01f77-5e58-4934-b6c6-d2e33f3f9fb6")
 	)
 	(fp_line
 		(start 1 7.25)
@@ -215,7 +215,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "49618b33-279b-4e9c-871a-de7be4ebb2f4")
+		(uuid "b4bd4867-2b55-4b22-a0b8-509e51f72c80")
 	)
 	(fp_line
 		(start 1 7.25)
@@ -225,7 +225,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3d2bc24f-3161-4160-9e46-78b5b37095d9")
+		(uuid "cf9ca5ab-0dd1-4a00-a3bc-7e3b3ff7cbda")
 	)
 	(fp_line
 		(start 12.35 7.25)
@@ -235,7 +235,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2f4e4e0f-2f4e-4d72-b6bf-2aa2e561ff1e")
+		(uuid "2519c292-de62-4683-a20b-6a1b97345609")
 	)
 	(fp_circle
 		(center 7.5 2.5)
@@ -246,12 +246,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "5619aa3a-f650-42ed-8f30-7d7e14e181a6")
+		(uuid "4bebc3cd-75cb-4dcc-bbaf-39320236a300")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 7.62 2.54 0)
 		(layer "F.Fab")
-		(uuid "e801a971-055c-4f96-84d6-c811fb1fb58e")
+		(uuid "d72eed2f-8281-4110-8731-36b89e4fedae")
 		(effects
 			(font
 				(size 1 1)
@@ -260,20 +260,20 @@
 		)
 	)
 	(pad "" thru_hole oval
-		(at 7.5 -2.3 90)
+		(at 7.5 -2.25 90)
 		(size 2.72 3.24)
 		(drill oval 1.1 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "604f37a4-ac9f-43b4-9b95-ff8d91056420")
+		(uuid "83a402a5-e098-40ff-a79c-a4459a279c4d")
 	)
 	(pad "" thru_hole oval
-		(at 7.5 7.3 90)
+		(at 7.5 7.25 90)
 		(size 2.72 3.24)
 		(drill oval 1.1 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "739b1e8d-a23b-4dce-acbb-a32a5177fa34")
+		(uuid "8859abdf-e4d6-41f7-b93c-3fabe71f24d8")
 	)
 	(pad "1" thru_hole rect
 		(at 0 0 90)
@@ -281,7 +281,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d919a50b-1b74-4cc4-a176-7beebdb8dae8")
+		(uuid "553638b5-fff2-4e08-a2fa-1770b4472d76")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.5 90)
@@ -289,7 +289,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1b54ffd2-29eb-441f-ac4e-f5f9ebb44ba5")
+		(uuid "856cee7e-b2cb-438c-80f9-d70dcbf5fc07")
 	)
 	(pad "3" thru_hole circle
 		(at 0 5 90)
@@ -297,30 +297,42 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a4071047-252a-42b0-a941-3a8a7fa79b20")
+		(uuid "08b7695c-5ea4-40b0-9978-ebb849581603")
+	)
+	(pad "4" thru_hole circle
+		(at -2.5 0 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a02872c-d32c-4154-b3e1-fb885e1287fe")
+	)
+	(pad "5" thru_hole circle
+		(at -2.5 2.5 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9d8fa7e-db8c-434e-b2a1-c8084e59db2c")
+	)
+	(pad "6" thru_hole circle
+		(at -2.5 5 90)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3bcede40-9e14-49e7-9e4a-4dddf193b8b7")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/ALPHA-RD901F-40.step"
+	(model "D:/Engineering/GitHub/DMH-Output/Libraries/SynthStuff/3D_models/RD902F-40-00D.stp"
 		(offset
-			(xyz 7.35 -2.5 0)
+			(xyz 7.5 -2.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
-		)
-	)
-	(model "${KIPRJMOD}/../Libraries/SynthStuff/3D_models/rk09l12d0a1w.stp"
-		(hide yes)
-		(offset
-			(xyz 7.5 -2.5 6.7)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 180 90)
+			(xyz -0 -0 90)
 		)
 	)
 )
