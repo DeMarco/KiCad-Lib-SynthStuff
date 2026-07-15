@@ -10095,26 +10095,26 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 12.7 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "V3205"
+			(at 0 10.414 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm_Socket"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,7 +10125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://aionfx.com/app/files/datasheets/coolaudio-v3205.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +10136,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Bucket Brigade delay line, 4096 stages"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10144,6 +10144,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" "Function"
+			(at -0.254 -10.668 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
 				)
 			)
 		)
@@ -10156,12 +10169,13 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 72 72 72 1)
 				)
 			)
 		)
 		(symbol "V3205_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at -8.89 6.35 0)
 				(length 2.54)
 				(name "GND"
@@ -10172,6 +10186,132 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "CP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "Out1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 -6.35 0)
+				(length 2.54)
+				(name "Out2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -6.35 180)
+				(length 2.54)
+				(name "Vdd"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "CP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 3.81 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 6.35 180)
+				(length 2.54)
+				(name "Vgg"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
