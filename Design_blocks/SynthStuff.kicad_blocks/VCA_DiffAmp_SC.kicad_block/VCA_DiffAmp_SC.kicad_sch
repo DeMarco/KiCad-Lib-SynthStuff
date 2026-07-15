@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "92b29c5a-7cc2-44a7-a9de-0cbd3b86c620")
+	(uuid "23a3f060-48f3-48c7-a605-a20d4e01e258")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
@@ -2348,7 +2348,7 @@
 		)
 		(uuid "ff7672cf-ed78-4e0a-8215-e47a295934ea")
 	)
-	(label "Signal Out"
+	(label "Signal_Out"
 		(at 241.3 50.8 0)
 		(effects
 			(font
@@ -2356,19 +2356,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "19d53124-cce3-46ef-ab67-72d49cc2ff9f")
+		(uuid "0582d943-e3d5-4633-a469-ef65837520f2")
 	)
-	(label "CV Mix In"
-		(at 107.95 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99905782-eee8-465d-ab27-5b5b1563235c")
-	)
-	(label "Signal In"
+	(label "Signal_In"
 		(at 125.73 88.9 180)
 		(effects
 			(font
@@ -2376,7 +2366,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c819492d-cf5f-4163-b216-7290a3ea6977")
+		(uuid "373d3750-b5cd-4315-8a52-b9631b491daf")
+	)
+	(label "CV_Mix_In"
+		(at 107.95 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55e1d11f-d9b8-431c-ae7e-8dfc974e642e")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -2410,7 +2410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 221.996 39.116 90)
 			(hide yes)
 			(show_name no)
@@ -2460,7 +2460,7 @@
 			(uuid "0088e734-2d7b-4a17-b436-a49fef634423")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R12")
 					(unit 1)
@@ -2500,7 +2500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 133.096 89.916 90)
 			(hide yes)
 			(show_name no)
@@ -2550,7 +2550,7 @@
 			(uuid "6a30907e-70e6-429c-b1e8-31ac1d0dfd7b")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R2")
 					(unit 1)
@@ -2590,7 +2590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 125.984 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -2630,7 +2630,7 @@
 			(uuid "df7fd547-71a4-43af-ba38-a0b1b46e0092")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R1")
 					(unit 1)
@@ -2712,7 +2712,7 @@
 			(uuid "8f730ec6-289f-4f1e-b3f5-e141a038782c")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "C1")
 					(unit 1)
@@ -2790,7 +2790,7 @@
 			(uuid "9e8c7b46-6f2f-4d5e-ae89-4849123c3638")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0108")
 					(unit 1)
@@ -2868,7 +2868,7 @@
 			(uuid "4d60ba0e-4d76-4d53-a3cd-bd65cc4deae3")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0111")
 					(unit 1)
@@ -2946,7 +2946,7 @@
 			(uuid "01e11f6d-05c0-4eca-a782-c1f5908dd2ca")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0110")
 					(unit 1)
@@ -2988,7 +2988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 138.684 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -3028,7 +3028,7 @@
 			(uuid "a83edd25-aa7b-4d06-8b25-edba3236bf03")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R3")
 					(unit 1)
@@ -3106,7 +3106,7 @@
 			(uuid "3e405d3f-7b0c-42dd-98f7-fb0186304019")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0116")
 					(unit 1)
@@ -3146,7 +3146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 196.596 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -3186,7 +3186,7 @@
 			(uuid "48873285-5816-49dd-b3ea-eed9967643cd")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R9")
 					(unit 1)
@@ -3264,7 +3264,7 @@
 			(uuid "50749717-6b8c-4179-aa5c-e1d325678d65")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0120")
 					(unit 1)
@@ -3374,7 +3374,7 @@
 			(uuid "5b9aae80-e6fb-4aa2-8ff0-63383e65b598")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "U1")
 					(unit 3)
@@ -3495,7 +3495,7 @@
 			(uuid "57adb85e-bee3-4ca5-90cd-e27b65f69a5a")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "Q2")
 					(unit 1)
@@ -3573,7 +3573,7 @@
 			(uuid "03ba88e2-9978-4c2e-af51-cda32fc97527")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0117")
 					(unit 1)
@@ -3615,7 +3615,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 178.816 31.496 90)
 			(hide yes)
 			(show_name no)
@@ -3665,7 +3665,7 @@
 			(uuid "db30de30-8030-45f8-845e-b0f13d4e6aca")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R6")
 					(unit 1)
@@ -3675,7 +3675,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 107.95 180)
+		(at 165.1 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3683,10 +3684,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "930b3c9c-5705-4a21-8f43-69e4162835ad")
 		(property "Reference" "R5"
-			(at 167.64 106.6799 0)
+			(at 167.64 109.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3697,7 +3697,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 167.64 109.2199 0)
+			(at 167.64 106.6801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3707,8 +3707,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 164.084 107.696 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 164.084 108.204 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3747,7 +3747,7 @@
 			(uuid "24bcc09d-41b4-441c-8e70-a6f204b98c5b")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R5")
 					(unit 1)
@@ -3757,7 +3757,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 190.5 95.25 180)
+		(at 190.5 95.25 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3765,10 +3766,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93fe34cb-8716-401c-8ee6-4a347c70dc5d")
 		(property "Reference" "R7"
-			(at 193.04 93.9799 0)
+			(at 193.04 96.5201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3779,7 +3779,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 193.04 96.5199 0)
+			(at 193.04 93.9801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3789,8 +3789,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 189.484 94.996 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 189.484 95.504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3829,7 @@
 			(uuid "acb5fa09-7c21-4c2e-a843-1be57a9118fb")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R7")
 					(unit 1)
@@ -3938,7 +3938,7 @@
 			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba2f")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "U1")
 					(unit 2)
@@ -4068,7 +4068,7 @@
 			(uuid "591f71d9-caaf-4b3b-a0ef-b57b201f5ae7")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "RV1")
 					(unit 1)
@@ -4178,7 +4178,7 @@
 			(uuid "3422616c-add5-47c7-ab3c-ef06e36c1703")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "Q1")
 					(unit 1)
@@ -4260,7 +4260,7 @@
 			(uuid "e4140922-a88d-4455-b140-8d13ab3605f7")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "C2")
 					(unit 1)
@@ -4270,7 +4270,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 196.85 88.9 270)
+		(at 196.85 88.9 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4278,7 +4279,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1b252c0-1cd9-462d-9149-91649d3aba28")
 		(property "Reference" "R10"
 			(at 196.85 82.55 90)
@@ -4300,8 +4300,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 196.596 89.916 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 197.104 89.916 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4350,7 @@
 			(uuid "bafe5dba-95c0-46bc-9f9a-593d72db52cf")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R10")
 					(unit 1)
@@ -4392,7 +4392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 210.566 63.754 90)
 			(hide yes)
 			(show_name no)
@@ -4442,7 +4442,7 @@
 			(uuid "b14e1d21-7bea-41c9-a535-90180e631c86")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R11")
 					(unit 1)
@@ -4520,7 +4520,7 @@
 			(uuid "5d3f7f2d-f0da-4ffe-8338-8e72d167438e")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0118")
 					(unit 1)
@@ -4598,7 +4598,7 @@
 			(uuid "1ed79b15-276f-46b5-aa55-09fd6dc29704")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0119")
 					(unit 1)
@@ -4707,7 +4707,7 @@
 			(uuid "512d8e70-bdd8-4bd0-90b2-b248113cba31")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "U1")
 					(unit 1)
@@ -4785,7 +4785,7 @@
 			(uuid "f34b5ab7-9694-481a-b642-764e76a25efa")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0109")
 					(unit 1)
@@ -4825,7 +4825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 196.596 45.466 90)
 			(hide yes)
 			(show_name no)
@@ -4865,7 +4865,7 @@
 			(uuid "6cc0e6ba-1f08-4023-aa18-b123d1c85ab5")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R8")
 					(unit 1)
@@ -4907,7 +4907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 151.384 31.496 90)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4957,7 @@
 			(uuid "d0d6d617-bbe8-43c7-9dda-87fec756bedb")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "R4")
 					(unit 1)
@@ -5035,7 +5035,7 @@
 			(uuid "b45f9ad2-99c6-457b-8dcb-d75c7120f175")
 		)
 		(instances
-			(project "DMH_Submodule_VCA"
+			(project "DMH_Submodule_VCA_Mk2"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR0112")
 					(unit 1)

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "ff435f32-b551-4dbe-96e8-302ceecb4283")
+	(uuid "9d1968fc-f9e0-448a-bfc9-03081f1433d7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
@@ -2945,17 +2945,7 @@
 		)
 		(uuid "ff7672cf-ed78-4e0a-8215-e47a295934ea")
 	)
-	(label "Signal In"
-		(at 127 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ac3d6e1-e8c1-46b4-88a6-2fe0beb09145")
-	)
-	(label "Signal Out"
+	(label "Signal_Out"
 		(at 241.3 50.8 0)
 		(effects
 			(font
@@ -2963,9 +2953,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "19d53124-cce3-46ef-ab67-72d49cc2ff9f")
+		(uuid "0582d943-e3d5-4633-a469-ef65837520f2")
 	)
-	(label "Signal Out"
+	(label "Signal_Out"
 		(at 127 156.21 180)
 		(effects
 			(font
@@ -2973,29 +2963,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "57118dfb-be63-4b3c-ad55-a003cecd8b16")
+		(uuid "10dd4cc7-340b-4e63-b165-9e0a81529a88")
 	)
-	(label "CV Mix In"
-		(at 127 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b9cdd1f-f435-400d-8e80-c324ef850a92")
-	)
-	(label "CV Mix In"
-		(at 107.95 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99905782-eee8-465d-ab27-5b5b1563235c")
-	)
-	(label "Signal In"
+	(label "Signal_In"
 		(at 125.73 88.9 180)
 		(effects
 			(font
@@ -3003,7 +2973,37 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c819492d-cf5f-4163-b216-7290a3ea6977")
+		(uuid "373d3750-b5cd-4315-8a52-b9631b491daf")
+	)
+	(label "CV_Mix_In"
+		(at 107.95 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55e1d11f-d9b8-431c-ae7e-8dfc974e642e")
+	)
+	(label "Signal_In"
+		(at 127 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed090211-8efb-4865-baff-0f2cdfbd332f")
+	)
+	(label "CV_Mix_In"
+		(at 127 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f395e4ad-184b-4524-ac2f-38e2009f7e4d")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -3037,7 +3037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 221.996 39.116 90)
 			(hide yes)
 			(show_name no)
@@ -3127,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 133.096 89.916 90)
 			(hide yes)
 			(show_name no)
@@ -3374,7 +3374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 125.984 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -3772,7 +3772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 138.684 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -3930,7 +3930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 196.596 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -4479,7 +4479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 178.816 31.496 90)
 			(hide yes)
 			(show_name no)
@@ -4617,7 +4617,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 107.95 180)
+		(at 165.1 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4625,10 +4626,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "930b3c9c-5705-4a21-8f43-69e4162835ad")
 		(property "Reference" "R5"
-			(at 167.64 106.6799 0)
+			(at 167.64 109.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4639,7 +4639,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 167.64 109.2199 0)
+			(at 167.64 106.6801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4649,8 +4649,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 164.084 107.696 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 164.084 108.204 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4699,7 +4699,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 190.5 95.25 180)
+		(at 190.5 95.25 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4707,10 +4708,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93fe34cb-8716-401c-8ee6-4a347c70dc5d")
 		(property "Reference" "R7"
-			(at 193.04 93.9799 0)
+			(at 193.04 96.5201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4721,7 +4721,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 193.04 96.5199 0)
+			(at 193.04 93.9801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4731,8 +4731,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 189.484 94.996 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 189.484 95.504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5384,7 +5384,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 196.85 88.9 270)
+		(at 196.85 88.9 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5392,7 +5393,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1b252c0-1cd9-462d-9149-91649d3aba28")
 		(property "Reference" "R10"
 			(at 196.85 82.55 90)
@@ -5414,8 +5414,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 196.596 89.916 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 197.104 89.916 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +5506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 210.566 63.754 90)
 			(hide yes)
 			(show_name no)
@@ -6107,7 +6107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 196.596 45.466 90)
 			(hide yes)
 			(show_name no)
@@ -6189,7 +6189,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 151.384 31.496 90)
 			(hide yes)
 			(show_name no)
@@ -6323,73 +6323,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group "VCA_DiffAmp"
-		(uuid "6466b887-308d-45c7-880c-da6cc5b25948")
-		(lib_id "SynthStuff:VCA_DiffAmp")
-		(members "04277f5d-ad92-47a2-b781-dacbbfc2f3aa" "0c122bcd-b094-47d3-ae0b-65314f1a0a59"
-			"0de3e97c-2499-4c80-ab1e-003f96d75e25" "0e207005-da7e-45a0-946f-99efe9524e95"
-			"0ffa6761-afa0-4068-a6ce-c7ba4fd9e42f" "114fa5a9-6e6f-4aa1-9278-7e6426c066b8"
-			"1675e6a6-bde1-4b16-bede-be30cf21bc48" "19d53124-cce3-46ef-ab67-72d49cc2ff9f"
-			"1a4c628b-0b24-483b-bb85-97e32727ac9c" "1b0458bf-4dd6-47db-b45f-6015339d9dac"
-			"1bd02db4-f714-4f30-b4fd-87d3645116b0" "20d291e7-3065-40da-9cbc-cb264e6f40a7"
-			"21fe7bb7-ad14-4066-abbc-3cf99cba5991" "2704baee-f84d-4bf6-ac66-937f7515e08c"
-			"28858b57-5b68-4ed3-863a-ae19385387b1" "2bdf4287-b21f-4586-99f7-bf66d2c6ea8d"
-			"2d2f4c0d-d022-4ce4-a538-06eba28ff649" "2e90e282-d8f2-4118-8b5d-6c99dc6fcad7"
-			"2e9d4ee3-ffcf-40ea-9030-cdc9b2fd8ad2" "37a664aa-8fa5-4f4e-ace6-a7282159a524"
-			"3b294e47-91ef-410c-9dea-aa792def5799" "3c7d27eb-0f53-45ba-9492-165ecada4631"
-			"3d492048-c7df-455e-ae53-de120f03b343" "3e5ced32-8391-4f0f-809e-138895328754"
-			"430b2ab0-9489-4ee2-8b8c-bef37d49a4fa" "43847c45-7ed2-44d1-9003-3ed3fe84d322"
-			"4b3ee5cd-7a21-4e8d-bec9-efacfa9af9d5" "4b957e3f-36e2-4b71-bd09-c057e223e5e4"
-			"4c0bf6e2-6a17-4334-9cf6-8b55597c81dd" "4ec2ef54-8cfd-439a-aeb8-765530d47c1d"
-			"4eeea033-b315-438a-84d1-00bb4a273f98" "4f9953ca-5e2f-4fb6-a312-ca6302f714a0"
-			"5139aae7-2650-4c9d-846a-d17d70d78859" "55065973-ca12-4545-8432-756bb87ffd30"
-			"57f6ec03-8210-495d-ab47-6d6971b81abc" "5e92a456-e08c-4ca8-9967-a62ca6cd8779"
-			"62500c8f-6a0e-46a3-9730-06dd13392086" "627a9cf4-92f1-4aa9-950d-005ca2b1c30e"
-			"63580410-4c18-4ba8-8d8e-4aa48bf23be9" "685e059c-cd90-457d-a23c-70102da5c410"
-			"6900a3c1-21ed-4aa4-80a0-079c734d1d1a" "69ab1438-3c2c-4c31-844b-d6ab738b3224"
-			"6b1f530d-eb2f-41fc-bd50-06e46a281850" "6b534dd2-448b-454c-9489-09e3405c2e12"
-			"6ce1e1ac-e4de-4a9a-b2e5-247d6dc48c3f" "6dbe8a19-65fc-4a11-8d1e-95b56164ad2a"
-			"6decf5ef-25ad-423c-a61a-a8958ece566b" "6e4758e0-b748-469e-907b-3ce9850d6cc1"
-			"6f53ff26-c0e4-4ed5-a4f7-bc4bf1731407" "7057ffb7-5cd8-46fe-a745-b72579d8c6d6"
-			"729a5c6b-a497-4c65-beba-0847ed6c6377" "7489cd2a-b8d0-4668-83e5-0d98bd65f187"
-			"7566b3d4-abaa-4c1c-ba6d-01203423ce57" "757a00d8-8bc3-4811-b262-8e32db95cde5"
-			"76986f02-d059-41a3-8156-e936b01101da" "7e9225a4-37b9-4865-86ba-844edefe4b23"
-			"8018e7fc-a8bf-47c8-8a59-e85acd47d351" "818dd05a-04c1-4a20-a1a7-f273bf1c3d25"
-			"82953834-4903-405d-a209-d2d5676586ee" "863b5b65-4627-4056-816a-41dc3206bb03"
-			"8c9235e9-47b3-48dd-b00a-c86d7131ab57" "8cd40a09-95c4-4c45-bef5-41367a428821"
-			"8d91fce3-1a6b-4a07-b729-4774195602e7" "930b3c9c-5705-4a21-8f43-69e4162835ad"
-			"93b932be-e05a-4cd7-b6ea-3c8ddee05f5e" "93fe34cb-8716-401c-8ee6-4a347c70dc5d"
-			"97588860-d277-4c25-8ed9-c25449dd1322" "98a68c0d-0d17-421e-a12e-5af9ca838076"
-			"99905782-eee8-465d-ab27-5b5b1563235c" "9c2b7ddc-8c7d-4607-9523-dac4cf9677ea"
-			"a5caf5f3-9741-4422-8a77-89bf50ab00cf" "a76ea37b-ff41-4e50-bef4-8b4d5cf2dd9e"
-			"a94cb552-1813-4825-9b02-8047d620a430" "aac6b7b0-f583-4a49-bdba-2c3f9d7b9407"
-			"ab3dc9c4-e4f1-4128-b57d-2d0a5af5e46d" "abe3548a-c140-4729-a5cb-63ad6637744d"
-			"b041eb2c-f9f6-4810-9c06-4d751c2a818b" "b3e2e1f1-2de1-4678-addf-62d5ea410dac"
-			"b5f2b402-5dbc-4873-b3de-057b17f10c80" "b66850f9-31fe-40bd-975d-969e959c4d46"
-			"bac66c90-8ede-4e5c-9de3-8c038bbd58db" "be089c3d-0554-4f0d-b3aa-240a13477db2"
-			"bfad3dfb-5d98-4236-8134-1f341ebc5ce4" "c15331a0-6d2f-40eb-ac37-cc8d82c1f4b5"
-			"c1b252c0-1cd9-462d-9149-91649d3aba28" "c1f51866-70f8-4698-a6f5-fe08fd390050"
-			"c2676afc-c486-4106-9114-3b63e3474881" "c2cb1175-1979-457e-86d6-d8d24bfd6772"
-			"c663477f-32d2-4871-b390-23c6eb94639a" "c6692f1e-d551-4641-8ee4-a6863ba48bfc"
-			"c800c5e9-2933-4c81-b30e-71ef812e720e" "c819492d-cf5f-4163-b216-7290a3ea6977"
-			"c9d35a68-581c-46a3-956f-dc13419eadc6" "c9e3ac2c-da2b-49ba-8cb9-674cf9ecbd3c"
-			"ca51d702-ce4c-44d9-bf79-51a5e815b4a8" "ca8dcf6b-e784-4872-bcd8-41ec6751d5e1"
-			"cb74029a-8109-4411-b53b-4e6f7fe53778" "cbd20b89-23c0-4fce-bd06-5a85bdb1324a"
-			"cf61d4ab-ef6b-4420-a7da-86ce16546c82" "d3aee560-015b-4973-bd2f-220d554cceb4"
-			"d4fe4f2c-bbdf-4907-84bb-e75d08f8dbb7" "d52e4704-1f62-4beb-92a2-3f8a6a8bdc26"
-			"d88648e0-3d7a-40cf-8930-c5eeaabeb57b" "d91125ae-57f4-43d7-83d4-32e971bbc23b"
-			"dc74fa8f-ba9a-42dc-aa31-f08e1c719bda" "dd3b221b-3978-4dca-8fa2-31cbbf5f019b"
-			"ddb2600e-c554-4ad1-8a19-4e2c377eb46b" "de184360-e68e-4a54-b31e-b6c9a23a65c4"
-			"e1121cea-d44b-40ff-abc8-3b3868dcc354" "e44dec85-2640-406c-a65f-ce4cb4f812a0"
-			"e4fabd2d-d483-4345-9697-660221faf38e" "e515d8f0-5ba1-4b9b-a885-c754db55c542"
-			"e54ab5ed-33ec-4688-846f-6f9aa3b77d6e" "eabdef69-4c07-4f03-9762-2329df6882e2"
-			"eacaaf33-120e-4abc-8a7e-524e0cc307e7" "eb54153f-cc26-4192-bb6a-48c5aa9c184e"
-			"edee4143-45dd-477a-9ebb-13bf7e233cbe" "ee72dd26-4325-4d41-a90e-4f07eea3a8f6"
-			"f29aaa25-f0e0-4168-bd5f-7ffce13327c3" "f669d401-a14f-495d-9876-670e12fddbf6"
-			"f781246d-8e0d-474e-98e7-54f7fef1b17c" "fcd37cdc-a6f0-4b6f-b742-61dbe4451dac"
-			"ff7672cf-ed78-4e0a-8215-e47a295934ea"
 		)
 	)
 )

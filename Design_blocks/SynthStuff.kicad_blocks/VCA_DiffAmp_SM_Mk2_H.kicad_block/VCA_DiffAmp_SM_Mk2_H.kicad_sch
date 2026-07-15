@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "1d1fbee7-9512-41bb-8403-1c003921f32e")
+	(uuid "0032af0c-9f50-4880-b231-170f390f6ac9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
@@ -2945,17 +2945,6 @@
 		)
 		(uuid "ff7672cf-ed78-4e0a-8215-e47a295934ea")
 	)
-	(hierarchical_label "Signal_In"
-		(shape input)
-		(at 125.73 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "92d4c5d5-6fe7-46dd-8c45-441d765cc7c6")
-	)
 	(hierarchical_label "CV_Mix_In"
 		(shape input)
 		(at 107.95 124.46 180)
@@ -2965,18 +2954,7 @@
 			)
 			(justify right)
 		)
-		(uuid "cd398a21-4299-4f50-9ae4-bccef2d44866")
-	)
-	(hierarchical_label "CV_Mix_In"
-		(shape input)
-		(at 127 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd687c5f-5a9e-4ece-96f9-ae086ca9c474")
+		(uuid "41696909-ae21-4e5a-9759-f05e231bf804")
 	)
 	(hierarchical_label "Signal_In"
 		(shape input)
@@ -2987,18 +2965,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e775c4de-0111-49c3-8fb2-a80b030c089c")
-	)
-	(hierarchical_label "Signal_Out"
-		(shape output)
-		(at 127 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eee5fe63-0c03-43eb-a749-8627b1620a90")
+		(uuid "564f9f14-eb33-4880-bf3c-cfd9d70fdb48")
 	)
 	(hierarchical_label "Signal_Out"
 		(shape output)
@@ -3009,7 +2976,40 @@
 			)
 			(justify left)
 		)
-		(uuid "f3e70474-9b1d-43c0-81f6-b4485f2f70d7")
+		(uuid "9fe29ef7-9ab0-4687-9f73-2681a433252b")
+	)
+	(hierarchical_label "CV_Mix_In"
+		(shape input)
+		(at 127 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc49e8ad-3165-42ea-9e86-cdb193329340")
+	)
+	(hierarchical_label "Signal_Out"
+		(shape output)
+		(at 127 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c08255a2-e4a5-4c0d-aa59-fa053a6ba0ea")
+	)
+	(hierarchical_label "Signal_In"
+		(shape input)
+		(at 125.73 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2a40449-c48f-4790-bae3-263c3e3ab41f")
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -3043,7 +3043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 221.996 39.116 90)
 			(hide yes)
 			(show_name no)
@@ -3133,7 +3133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 133.096 89.916 90)
 			(hide yes)
 			(show_name no)
@@ -3380,7 +3380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 125.984 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -3778,7 +3778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 138.684 94.996 90)
 			(hide yes)
 			(show_name no)
@@ -3936,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 196.596 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -4485,7 +4485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 178.816 31.496 90)
 			(hide yes)
 			(show_name no)
@@ -4623,7 +4623,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 165.1 107.95 180)
+		(at 165.1 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4631,10 +4632,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "930b3c9c-5705-4a21-8f43-69e4162835ad")
 		(property "Reference" "R5"
-			(at 167.64 106.6799 0)
+			(at 167.64 109.2201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4645,7 +4645,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 167.64 109.2199 0)
+			(at 167.64 106.6801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4655,8 +4655,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 164.084 107.696 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 164.084 108.204 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4705,7 +4705,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 190.5 95.25 180)
+		(at 190.5 95.25 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4713,10 +4714,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93fe34cb-8716-401c-8ee6-4a347c70dc5d")
 		(property "Reference" "R7"
-			(at 193.04 93.9799 0)
+			(at 193.04 96.5201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4727,7 +4727,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 193.04 96.5199 0)
+			(at 193.04 93.9801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4737,8 +4737,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 189.484 94.996 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 189.484 95.504 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5390,7 +5390,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 196.85 88.9 270)
+		(at 196.85 88.9 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5398,7 +5399,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c1b252c0-1cd9-462d-9149-91649d3aba28")
 		(property "Reference" "R10"
 			(at 196.85 82.55 90)
@@ -5420,8 +5420,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 196.596 89.916 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 197.104 89.916 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5512,7 +5512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 210.566 63.754 90)
 			(hide yes)
 			(show_name no)
@@ -6113,7 +6113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 196.596 45.466 90)
 			(hide yes)
 			(show_name no)
@@ -6195,7 +6195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 151.384 31.496 90)
 			(hide yes)
 			(show_name no)
