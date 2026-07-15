@@ -6551,7 +6551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293ffc50-e892-4d17-bd68-b5979a551b09")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 66.04 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6643,7 +6643,7 @@
 		(instances
 			(project "DMH_Submodule_XFader"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10659,7 +10659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd5cce2f-f040-4dad-8e0c-a8e34acadb22")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 35.56 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10739,7 +10739,7 @@
 		(instances
 			(project "DMH_Submodule_XFader"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
