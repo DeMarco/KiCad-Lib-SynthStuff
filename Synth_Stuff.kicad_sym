@@ -10301,7 +10301,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 8.89 6.35 180)
 				(length 2.54)
 				(name "Vgg"
