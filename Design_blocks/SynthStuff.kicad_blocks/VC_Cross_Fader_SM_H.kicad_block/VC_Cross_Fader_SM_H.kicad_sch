@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d7353712-f31e-4d2e-89ad-bbe7d3001961")
+	(uuid "c4a13811-a814-4c89-863a-95ba0d366e35")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL072"
@@ -1839,6 +1839,268 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at 0 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC548"
 			(pin_names
 				(offset 0)
@@ -2605,7 +2867,7 @@
 	)
 	(rectangle
 		(start 191.77 175.26)
-		(end 201.93 205.74)
+		(end 201.93 208.28)
 		(stroke
 			(width 0)
 			(type default)
@@ -2629,7 +2891,7 @@
 	)
 	(rectangle
 		(start 191.77 35.56)
-		(end 201.93 66.04)
+		(end 201.93 68.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -2662,6 +2924,18 @@
 			(type none)
 		)
 		(uuid "76986f02-d059-41a3-8156-e936b01101da")
+	)
+	(circle
+		(center 222.504 118.11)
+		(radius 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e60efb75-3632-42fd-bcf8-ab076f19d9ba")
 	)
 	(text "Matched"
 		(exclude_from_sim no)
@@ -2743,17 +3017,33 @@
 		)
 		(uuid "c15331a0-6d2f-40eb-ac37-cc8d82c1f4b5")
 	)
+	(text "Optional"
+		(exclude_from_sim no)
+		(at 232.41 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d489c0c0-3584-4264-ab4a-21511caf50b3")
+	)
 	(junction
-		(at 152.4 196.85)
+		(at 152.4 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0a7007ef-6cb5-40aa-b95d-a469dcbdb65f")
+		(uuid "118d43f6-dc7f-4d2b-bd06-57165e467206")
 	)
 	(junction
 		(at 113.03 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ba2ff8c-eea5-4729-afa3-0d6cca91ed31")
+	)
+	(junction
+		(at 177.8 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a9bb81-d342-4df3-8a12-73a509adaaee")
 	)
 	(junction
 		(at 63.5 229.87)
@@ -2766,6 +3056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "430b2ab0-9489-4ee2-8b8c-bef37d49a4fa")
+	)
+	(junction
+		(at 177.8 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "497040d2-1ec3-4a6b-803c-6a125b160fa9")
 	)
 	(junction
 		(at 101.6 264.16)
@@ -2786,6 +3082,12 @@
 		(uuid "55a46c57-5e22-43b1-863e-197347e62faa")
 	)
 	(junction
+		(at 177.8 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56638a92-3a74-494a-8048-63faaceda8e5")
+	)
+	(junction
 		(at 210.82 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2802,6 +3104,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63c005ac-fec0-4000-911f-e78d1e1de928")
+	)
+	(junction
+		(at 152.4 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64faf878-1819-4a18-bff3-e9dedaf67b4a")
 	)
 	(junction
 		(at 101.6 114.3)
@@ -2822,16 +3130,16 @@
 		(uuid "6b1f530d-eb2f-41fc-bd50-06e46a281850")
 	)
 	(junction
+		(at 233.68 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b916835-632f-43ee-98ef-a26bf61e0e2e")
+	)
+	(junction
 		(at 113.03 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ff26743-f3a2-46ff-b2dc-1c15afeefdcc")
-	)
-	(junction
-		(at 152.4 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75674b28-6014-4d92-b667-dcfd03f2e0b1")
 	)
 	(junction
 		(at 45.72 207.01)
@@ -2840,16 +3148,28 @@
 		(uuid "7868151a-31d0-458d-8c8f-720ef42a0fa5")
 	)
 	(junction
-		(at 177.8 44.45)
+		(at 152.4 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d5e9478-9c26-4209-a806-621d577375de")
+		(uuid "7ad3e805-96d1-40ae-b025-8feaedf0cfe1")
 	)
 	(junction
 		(at 90.17 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "881a710f-2809-43d0-8f08-0e5f4e12a003")
+	)
+	(junction
+		(at 152.4 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90945c21-7f0f-4809-aa54-0f8c6e809b09")
+	)
+	(junction
+		(at 177.8 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a65067b8-ca42-490d-8635-55e6622bcf21")
 	)
 	(junction
 		(at 165.1 97.79)
@@ -2886,12 +3206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6c298e1-7b92-4af8-9246-38894483ecfd")
-	)
-	(junction
-		(at 177.8 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c92d6916-259a-4088-be10-bb4d5c9af794")
 	)
 	(junction
 		(at 209.55 193.04)
@@ -2976,6 +3290,26 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f5e728-f271-49cb-8a43-e75664d5d6a3")
+	)
+	(wire
+		(pts
+			(xy 152.4 190.5) (xy 152.4 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011d4578-0467-4d38-a13c-6bbe748c1f9d")
+	)
+	(wire
+		(pts
+			(xy 177.8 66.04) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032e61d8-fe65-4b1d-bace-51e2d251dbc8")
 	)
 	(wire
 		(pts
@@ -3069,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 175.26) (xy 152.4 196.85)
+			(xy 152.4 175.26) (xy 152.4 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3413,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 57.15) (xy 203.2 57.15)
+			(xy 200.66 59.69) (xy 203.2 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3463,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 175.26) (xy 177.8 184.15)
+			(xy 177.8 175.26) (xy 177.8 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3146,6 +3480,16 @@
 			(type default)
 		)
 		(uuid "1b1133c6-c36f-4640-bdee-143c090ed4ff")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b289e96-8e9f-441f-baef-4c341c261c77")
 	)
 	(wire
 		(pts
@@ -3176,6 +3520,16 @@
 			(type default)
 		)
 		(uuid "1c7ac944-ea4f-4537-b060-5d8842589813")
+	)
+	(wire
+		(pts
+			(xy 177.8 50.8) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca916ba-60e9-462d-ab55-ea3ee5481fa8")
 	)
 	(wire
 		(pts
@@ -3216,16 +3570,6 @@
 			(type default)
 		)
 		(uuid "21fe7bb7-ad14-4066-abbc-3cf99cba5991")
-	)
-	(wire
-		(pts
-			(xy 152.4 196.85) (xy 152.4 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27f71810-bfee-478f-9aed-241fe3362a76")
 	)
 	(wire
 		(pts
@@ -3309,6 +3653,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 66.04) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df1505d-bc43-47c3-9648-00c57cc864ac")
+	)
+	(wire
+		(pts
 			(xy 95.25 146.05) (xy 127 146.05)
 		)
 		(stroke
@@ -3316,6 +3670,16 @@
 			(type default)
 		)
 		(uuid "2e4c33a1-58fc-4889-bfab-060b8e950159")
+	)
+	(wire
+		(pts
+			(xy 165.1 44.45) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f62bfc0-4ee0-43de-9e97-8c8c60390cbc")
 	)
 	(wire
 		(pts
@@ -3349,23 +3713,23 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 184.15) (xy 193.04 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371b1be7-dabd-44fd-881a-a045219676e6")
-	)
-	(wire
-		(pts
-			(xy 177.8 44.45) (xy 177.8 83.82)
+			(xy 177.8 35.56) (xy 177.8 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37a664aa-8fa5-4f4e-ace6-a7282159a524")
+	)
+	(wire
+		(pts
+			(xy 152.4 205.74) (xy 160.02 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b9fb32-b9d3-4892-8d39-74012ca1f137")
 	)
 	(wire
 		(pts
@@ -3389,6 +3753,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 44.45) (xy 165.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d5183d-9f06-4043-8dde-7aa497f8902c")
+	)
+	(wire
+		(pts
 			(xy 38.1 251.46) (xy 38.1 252.73)
 		)
 		(stroke
@@ -3399,13 +3773,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 184.15) (xy 177.8 223.52)
+			(xy 193.04 59.69) (xy 165.1 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e1e7d07-651d-4eea-b386-777469f9de42")
+		(uuid "3e230f01-039d-4004-8cd8-114fcb332113")
 	)
 	(wire
 		(pts
@@ -3446,16 +3820,6 @@
 			(type default)
 		)
 		(uuid "3f38fa79-b736-42e5-a981-9404494b89b8")
-	)
-	(wire
-		(pts
-			(xy 152.4 35.56) (xy 152.4 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43847c45-7ed2-44d1-9003-3ed3fe84d322")
 	)
 	(wire
 		(pts
@@ -3519,26 +3883,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 196.85) (xy 193.04 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e18090-ba53-44e2-a47c-31c7cbd3f3b8")
-	)
-	(wire
-		(pts
-			(xy 152.4 57.15) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a257374-d9b1-452f-810d-29e9cb6fa7ea")
-	)
-	(wire
-		(pts
 			(xy 209.55 193.04) (xy 209.55 199.39)
 		)
 		(stroke
@@ -3546,6 +3890,16 @@
 			(type default)
 		)
 		(uuid "4b0ebf8b-2865-4238-99ab-c330c532609d")
+	)
+	(wire
+		(pts
+			(xy 152.4 205.74) (xy 152.4 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b179582-051b-4d81-a438-640ef446823e")
 	)
 	(wire
 		(pts
@@ -3676,6 +4030,16 @@
 			(type default)
 		)
 		(uuid "57f6ec03-8210-495d-ab47-6d6971b81abc")
+	)
+	(wire
+		(pts
+			(xy 170.18 190.5) (xy 177.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5876b587-6b77-4ee3-b620-40a75ba6d4d2")
 	)
 	(wire
 		(pts
@@ -3829,6 +4193,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 120.65) (xy 210.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d18107e-9c9b-40cd-bff5-d3d5371dcae7")
+	)
+	(wire
+		(pts
 			(xy 86.36 54.61) (xy 90.17 54.61)
 		)
 		(stroke
@@ -3839,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 199.39) (xy 165.1 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d73bf1b-bbb5-4ef7-b328-1fa278e3d948")
+	)
+	(wire
+		(pts
 			(xy 101.6 269.24) (xy 101.6 273.05)
 		)
 		(stroke
@@ -3846,6 +4230,16 @@
 			(type default)
 		)
 		(uuid "6ebf1c73-ffc2-4a6e-9f64-cbd167f418f3")
+	)
+	(wire
+		(pts
+			(xy 152.4 190.5) (xy 160.02 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efbdaed-7b6f-4f0e-8f17-7c479442d653")
 	)
 	(wire
 		(pts
@@ -3889,6 +4283,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 120.65) (xy 233.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fb7301-1b28-402b-a5c4-5cab6d251f63")
+	)
+	(wire
+		(pts
 			(xy 209.55 48.26) (xy 214.63 48.26)
 		)
 		(stroke
@@ -3919,16 +4323,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 35.56) (xy 177.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9225a4-37b9-4865-86ba-844edefe4b23")
-	)
-	(wire
-		(pts
 			(xy 209.55 53.34) (xy 209.55 59.69)
 		)
 		(stroke
@@ -3936,6 +4330,16 @@
 			(type default)
 		)
 		(uuid "8018e7fc-a8bf-47c8-8a59-e85acd47d351")
+	)
+	(wire
+		(pts
+			(xy 152.4 66.04) (xy 160.02 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f1f0a7-ded6-403c-ba4f-cac1ca18abe0")
 	)
 	(wire
 		(pts
@@ -3966,6 +4370,16 @@
 			(type default)
 		)
 		(uuid "863b5b65-4627-4056-816a-41dc3206bb03")
+	)
+	(wire
+		(pts
+			(xy 170.18 205.74) (xy 177.8 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89379534-ea5d-4da8-bb0a-fb6343c862c3")
 	)
 	(wire
 		(pts
@@ -4059,7 +4473,27 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 57.15) (xy 203.2 53.34)
+			(xy 177.8 205.74) (xy 177.8 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9223ed68-657d-4f04-9489-4bf37b475854")
+	)
+	(wire
+		(pts
+			(xy 218.44 120.65) (xy 210.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924a6be2-9537-4a0b-8e50-2fcc8e20f76c")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4086,6 +4520,16 @@
 			(type default)
 		)
 		(uuid "98a68c0d-0d17-421e-a12e-5af9ca838076")
+	)
+	(wire
+		(pts
+			(xy 226.06 120.65) (xy 233.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d06ecd-a107-4556-9480-bebcd66ce063")
 	)
 	(wire
 		(pts
@@ -4126,6 +4570,16 @@
 			(type default)
 		)
 		(uuid "a0937729-bc23-4b48-bf94-e45ff8632466")
+	)
+	(wire
+		(pts
+			(xy 177.8 190.5) (xy 177.8 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2517bb7-5f62-4b6d-b58a-52e61980a2c3")
 	)
 	(wire
 		(pts
@@ -4219,7 +4673,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 57.15) (xy 152.4 83.82)
+			(xy 152.4 35.56) (xy 152.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4319,7 +4773,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 196.85) (xy 203.2 196.85)
+			(xy 200.66 199.39) (xy 203.2 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4406,6 +4860,16 @@
 			(type default)
 		)
 		(uuid "c401c019-fe68-44f2-b034-1110c09ce441")
+	)
+	(wire
+		(pts
+			(xy 165.1 199.39) (xy 165.1 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54436b2-c901-403c-a318-2be9846cb1e1")
 	)
 	(wire
 		(pts
@@ -4559,7 +5023,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 196.85) (xy 203.2 193.04)
+			(xy 203.2 199.39) (xy 203.2 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4576,16 +5040,6 @@
 			(type default)
 		)
 		(uuid "d91125ae-57f4-43d7-83d4-32e971bbc23b")
-	)
-	(wire
-		(pts
-			(xy 177.8 44.45) (xy 193.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbfdec4-7bf5-4e64-9af3-aa7b7721189b")
 	)
 	(wire
 		(pts
@@ -4699,6 +5153,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 59.69) (xy 165.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69f709d-78e9-4509-bc1c-a3ca8074a23e")
+	)
+	(wire
+		(pts
+			(xy 193.04 184.15) (xy 165.1 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75d1db2-f950-40d3-af51-156d131037e2")
+	)
+	(wire
+		(pts
 			(xy 218.44 38.1) (xy 209.55 38.1)
 		)
 		(stroke
@@ -4719,6 +5193,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed457a5e-c1e0-4b83-8918-f6530b7917eb")
+	)
+	(wire
+		(pts
 			(xy 139.7 88.9) (xy 144.78 88.9)
 		)
 		(stroke
@@ -4726,6 +5210,16 @@
 			(type default)
 		)
 		(uuid "edee4143-45dd-477a-9ebb-13bf7e233cbe")
+	)
+	(wire
+		(pts
+			(xy 170.18 50.8) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff587f1-041c-4c0e-a1c5-98de3f87cc73")
 	)
 	(wire
 		(pts
@@ -4799,6 +5293,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 184.15) (xy 165.1 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cf7f33-ff32-4e08-9be6-c6d76bf11cd6")
+	)
+	(wire
+		(pts
 			(xy 203.2 184.15) (xy 203.2 187.96)
 		)
 		(stroke
@@ -4806,6 +5310,16 @@
 			(type default)
 		)
 		(uuid "fad693d5-8d05-48cf-92c0-f0f25160cf02")
+	)
+	(wire
+		(pts
+			(xy 152.4 50.8) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf9c20d-c6bd-43e2-bad0-d17590ca96b8")
 	)
 	(wire
 		(pts
@@ -4857,182 +5371,6 @@
 		)
 		(uuid "ff7672cf-ed78-4e0a-8215-e47a295934ea")
 	)
-	(hierarchical_label "Out_X"
-		(shape output)
-		(at 241.3 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "305b2e0b-6924-498f-927f-76ebb4c69e68")
-	)
-	(hierarchical_label "In_B"
-		(shape input)
-		(at 50.8 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "37191d82-f110-4162-bf02-b02165802a76")
-	)
-	(hierarchical_label "CV_Att_Pot"
-		(shape input)
-		(at 50.8 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43b145d4-631d-4c89-a483-8ebecf66ac88")
-	)
-	(hierarchical_label "Out_A"
-		(shape output)
-		(at 196.85 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f52f9e9-f3d5-4685-a9d2-f36984fb83fc")
-	)
-	(hierarchical_label "Out_B"
-		(shape output)
-		(at 241.3 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "548cc7bc-2626-48e4-82cd-92dba60c7c5b")
-	)
-	(hierarchical_label "Out_A"
-		(shape output)
-		(at 241.3 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e29beb7-1630-4dea-9f23-35993cc262cf")
-	)
-	(hierarchical_label "CV_Mix_In"
-		(shape input)
-		(at 96.52 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d9fb5d4-ea56-45a0-a4e9-03b48f143f0d")
-	)
-	(hierarchical_label "CV_Mix_In"
-		(shape input)
-		(at 129.54 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79e8e540-ce87-4020-a082-ecb9133c843b")
-	)
-	(hierarchical_label "CV_Mix_In"
-		(shape input)
-		(at 50.8 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8299f867-38df-4fce-8c66-abd632ee13e4")
-	)
-	(hierarchical_label "Out_X"
-		(shape output)
-		(at 50.8 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "96b6073d-4811-4dfa-bfe5-4e8630934a8e")
-	)
-	(hierarchical_label "In_B"
-		(shape input)
-		(at 125.73 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7b4e8b9-1f91-4bd2-a4fa-a03a2db39542")
-	)
-	(hierarchical_label "Out_A"
-		(shape output)
-		(at 50.8 165.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b09a679c-f663-45e6-a018-52b52cb9e3c8")
-	)
-	(hierarchical_label "CV_Att_Pot"
-		(shape input)
-		(at 76.2 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0cd0b64-7e32-4905-b590-b6d6761b5cad")
-	)
-	(hierarchical_label "Out_B"
-		(shape output)
-		(at 196.85 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b520df95-9001-4158-b5fa-2476175954a6")
-	)
-	(hierarchical_label "Out_B"
-		(shape output)
-		(at 50.8 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c09a196d-6a1d-49fb-b03e-a5bb6ef98c92")
-	)
-	(hierarchical_label "In_A"
-		(shape input)
-		(at 50.8 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d71013ff-e61c-4f86-90e0-bc88ab69bdec")
-	)
 	(hierarchical_label "CV_Att_In"
 		(shape input)
 		(at 50.8 172.72 180)
@@ -5042,7 +5380,7 @@
 			)
 			(justify right)
 		)
-		(uuid "da124b07-000c-412f-b3d7-01bfb445cd4a")
+		(uuid "1567aa99-f853-4a66-a607-6d326332b910")
 	)
 	(hierarchical_label "In_A"
 		(shape input)
@@ -5053,7 +5391,161 @@
 			)
 			(justify right)
 		)
-		(uuid "eef5bd65-5ccb-45e5-8daa-b80248a627d0")
+		(uuid "16dbdee9-caf1-490b-95f5-0bd72a4813e0")
+	)
+	(hierarchical_label "In_B"
+		(shape input)
+		(at 125.73 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "487d8cf8-e224-47ee-a930-3d46a70d0fa0")
+	)
+	(hierarchical_label "Out_X"
+		(shape output)
+		(at 241.3 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7734337e-754f-4148-b43e-12dbddd3afe3")
+	)
+	(hierarchical_label "CV_Mix_In"
+		(shape input)
+		(at 50.8 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77e48616-90c5-4a86-9038-e8be5b3bd6a3")
+	)
+	(hierarchical_label "CV_Mix_In"
+		(shape input)
+		(at 129.54 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e1a6de6-bc44-4179-bf2e-25ed7cc31d57")
+	)
+	(hierarchical_label "Out_X"
+		(shape output)
+		(at 50.8 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1a4c6cc-bdcf-41b6-a13a-b43653973073")
+	)
+	(hierarchical_label "Out_A"
+		(shape output)
+		(at 50.8 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c22fe4ec-f521-42f9-8733-c81c02eab532")
+	)
+	(hierarchical_label "CV_Att_Pot"
+		(shape input)
+		(at 50.8 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6d2a465-b5a2-4ff9-91a4-7d2455b53e40")
+	)
+	(hierarchical_label "In_B"
+		(shape input)
+		(at 50.8 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d405ea14-873d-4006-942c-4db3cf3eb586")
+	)
+	(hierarchical_label "CV_Att_Pot"
+		(shape input)
+		(at 76.2 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d500cf95-e8e5-4159-8bf6-ad2f3e863b95")
+	)
+	(hierarchical_label "Out_B"
+		(shape output)
+		(at 50.8 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dce26baf-d8d4-4aa9-a8e7-cf0373021a7d")
+	)
+	(hierarchical_label "Out_B"
+		(shape output)
+		(at 241.3 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df69aca8-c2fb-4767-86ed-8c528e30c1d3")
+	)
+	(hierarchical_label "In_A"
+		(shape input)
+		(at 50.8 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4b3ce30-d1c9-4089-97cc-503ec9b923d5")
+	)
+	(hierarchical_label "Out_A"
+		(shape output)
+		(at 241.3 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5f722a4-7053-48dc-97fc-190804b51e78")
+	)
+	(hierarchical_label "Out_A"
+		(shape output)
+		(at 196.85 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6144b7a-d6bc-429e-8585-5b1d4fa799d7")
 	)
 	(hierarchical_label "CV_Att_In"
 		(shape input)
@@ -5064,7 +5556,29 @@
 			)
 			(justify right)
 		)
-		(uuid "f4f49cf4-7448-49f5-8cbf-644a1ab487fd")
+		(uuid "ea7ade27-73d4-4e1d-9f60-ae2244c97fdc")
+	)
+	(hierarchical_label "CV_Mix_In"
+		(shape input)
+		(at 96.52 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efd27263-071f-43d9-a534-c2f657567d71")
+	)
+	(hierarchical_label "Out_B"
+		(shape output)
+		(at 196.85 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6b5f926-205b-4436-93cd-907418ccf90c")
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
@@ -5960,6 +6474,95 @@
 			(project "DMH_Submodule_XFader"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 222.25 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21cc8f47-c2f7-4e10-9381-08d02f344e5d")
+		(property "Reference" "C5"
+			(at 222.25 114.046 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33pF"
+			(at 222.25 116.586 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 226.06 119.6848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 222.25 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24a634b9-d434-4ddc-aff8-7f9392bc45eb")
+		)
+		(pin "2"
+			(uuid "916cce48-ccc3-4da0-8ced-c97d56ae08a8")
+		)
+		(instances
+			(project "DMH_Submodule_XFader"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7596,7 +8199,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 196.85 57.15 270)
+		(at 196.85 59.69 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7607,7 +8210,7 @@
 		(dnp no)
 		(uuid "4ec2ef54-8cfd-439a-aeb8-765530d47c1d")
 		(property "Reference" "R8"
-			(at 196.85 63.5 90)
+			(at 196.85 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7617,7 +8220,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 196.85 60.96 90)
+			(at 196.85 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7627,7 +8230,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 196.596 56.134 90)
+			(at 196.596 58.674 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7638,7 +8241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 57.15 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7649,7 +8252,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 196.85 57.15 0)
+			(at 196.85 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,6 +8434,89 @@
 			(project "DMH_Submodule_XFader"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 165.1 66.04 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5775c743-8671-4d61-af02-0786d340331e")
+		(property "Reference" "JP2"
+			(at 165.1 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 165.1 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 165.1 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 165.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf14bc92-ddbc-44ab-b237-b297ecd4685e")
+		)
+		(pin "1"
+			(uuid "cf2cbdce-c306-42d4-9a76-1ff820a50836")
+		)
+		(pin "3"
+			(uuid "d93f1a95-5761-4f95-8ca6-979ef09d7f11")
+		)
+		(instances
+			(project "DMH_Submodule_XFader"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -8187,6 +8873,89 @@
 			(project "DMH_Submodule_XFader"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 165.1 190.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fe9d8ab-8356-4460-b303-4315f873a9d9")
+		(property "Reference" "JP3"
+			(at 165.1 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 165.1 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 165.1 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 165.1 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aae00cda-af1c-46fe-82d6-817c68692feb")
+		)
+		(pin "1"
+			(uuid "cf8b6664-fe58-4fd7-95ea-999de3f42c47")
+		)
+		(pin "3"
+			(uuid "5a73216e-593c-4b01-8ceb-8d7323799c76")
+		)
+		(instances
+			(project "DMH_Submodule_XFader"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -9895,19 +10664,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 196.85 196.85 270)
-		(mirror x)
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 165.1 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9a5903f2-ce51-4d42-9118-22b90f70de7c")
-		(property "Reference" "R26"
-			(at 196.85 203.2 90)
+		(fields_autoplaced yes)
+		(uuid "958f4bd2-95d7-4c9f-a442-0e0d05b5c8f0")
+		(property "Reference" "JP1"
+			(at 165.1 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9916,8 +10685,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 196.85 200.66 90)
+		(property "Value" "SolderJumper_3_Open"
+			(at 165.1 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9926,8 +10695,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 196.596 195.834 90)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 165.1 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,7 +10707,100 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 196.85 0)
+			(at 165.1 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 165.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Function" ""
+			(at 165.1 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c4300a6-2013-4b26-8742-7b241fec1b27")
+		)
+		(pin "1"
+			(uuid "39726a26-82e0-4513-8692-8c7b30fc3945")
+		)
+		(pin "3"
+			(uuid "9fafebf8-d60a-4e25-a5ec-a563cc7b7370")
+		)
+		(instances
+			(project "DMH_Submodule_XFader"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 196.85 199.39 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a5903f2-ce51-4d42-9118-22b90f70de7c")
+		(property "Reference" "R26"
+			(at 196.85 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 196.85 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 196.596 198.374 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9949,7 +10811,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 196.85 196.85 0)
+			(at 196.85 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10869,6 +11731,89 @@
 			(project "DMH_Submodule_XFader"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 165.1 205.74 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf1505f9-3e30-445c-a8a4-c7f6bccd637c")
+		(property "Reference" "JP4"
+			(at 165.1 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 165.1 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 165.1 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 165.1 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f859c088-4073-4c45-8860-5ed9a5c9f245")
+		)
+		(pin "1"
+			(uuid "c1273c87-82aa-4b04-9c0a-741b528f19b5")
+		)
+		(pin "3"
+			(uuid "25366fbc-d9b0-4301-8c94-ec2f735b41ca")
+		)
+		(instances
+			(project "DMH_Submodule_XFader"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
